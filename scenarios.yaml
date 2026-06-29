@@ -27,7 +27,7 @@ scenarios:
       citation_count: 0.50
       library_holdings: 0.20
       syllabus_adoptions: 0.25
-      sustained_readership: 0.05
+      readership_persistence: 0.05
 
   broad_influence:
     description: Weights reach and sustained public readership.
@@ -35,7 +35,7 @@ scenarios:
       citation_count: 0.20
       library_holdings: 0.25
       syllabus_adoptions: 0.15
-      sustained_readership: 0.40
+      readership_persistence: 0.40
 
   governance_practitioner:
     description: Weights adoption signals relevant to practitioners and standards.
@@ -43,4 +43,4 @@ scenarios:
       citation_count: 0.25
       library_holdings: 0.30
       syllabus_adoptions: 0.35
-      sustained_readership: 0.10
+      readership_persistence: 0.10

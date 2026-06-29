@@ -113,10 +113,6 @@ def _pick(paper: dict, response: dict) -> dict | None:
     return best
 
 
-# Recent full years used for the sustained-readership signal (2026 is partial).
-RECENT_YEARS = (2023, 2024, 2025)
-
-
 def _metric(paper, match, name, value, confidence):
     return {
         "work_id": paper["id"],
@@ -135,8 +131,12 @@ def parse(paper: dict, response: dict | None) -> dict:
 
     Returns {"metrics": [...], "gaps": [{metric, reason}, ...]}. Two independent
     signals come off the same matched OpenAlex record:
-      * citation_count       — all-time cited_by_count
-      * sustained_readership — citations in RECENT_YEARS (recent momentum)
+      * citation_count: all-time cited_by_count (scale of impact)
+      * readership_persistence: the number of distinct years the work keeps being
+        cited, a longevity proxy from counts_by_year. A work cited across many
+        years scores higher than a one-year spike; this rewards enduring use, not
+        recent volume. A fuller longevity proxy (holdings over time, edition
+        count, continued availability) is a declared deferred enhancement.
     Never imputes a value (rule 8); a missing field is a gap, not a zero.
     """
     if response is None:
@@ -158,12 +158,13 @@ def parse(paper: dict, response: dict | None) -> dict:
 
     cby = match.get("counts_by_year")
     if not cby:
-        gaps.append({"metric": "sustained_readership", "reason": "matched work has no counts_by_year"})
+        gaps.append({"metric": "readership_persistence", "reason": "matched work has no counts_by_year"})
     else:
-        recent = sum(e.get("cited_by_count", 0) for e in cby if e.get("year") in RECENT_YEARS)
-        # Derived proxy — one notch below the all-time count's confidence.
+        # Longevity proxy: distinct years in which the work kept being cited.
+        persistence = sum(1 for e in cby if (e.get("cited_by_count") or 0) > 0)
+        # Derived proxy: one notch below the all-time count's confidence.
         conf = "medium" if base_conf == "high" else "low"
-        metrics.append(_metric(paper, match, "sustained_readership", recent, conf))
+        metrics.append(_metric(paper, match, "readership_persistence", persistence, conf))
 
     return {"metrics": metrics, "gaps": gaps}
 

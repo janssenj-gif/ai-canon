@@ -54,8 +54,8 @@ def test_openalex_parse_extracts_both_signals():
     by = _by_name(out["metrics"])
     assert by["citation_count"]["value"] == 120000.0
     assert by["citation_count"]["confidence"] == "high"
-    # sustained_readership = sum of 2023+2024+2025 only (2018 excluded)
-    assert by["sustained_readership"]["value"] == 24000.0
+    # readership_persistence = count of distinct years with citations (2025,2024,2023,2018)
+    assert by["readership_persistence"]["value"] == 4.0
     assert by["citation_count"]["provenance_url"].startswith("https://openalex.org/")
 
 
@@ -64,8 +64,8 @@ def test_openalex_missing_counts_by_year_gaps_only_that_metric():
     out = parse(paper, _resp(result={"counts_by_year": []}))
     by = _by_name(out["metrics"])
     assert "citation_count" in by  # still present
-    assert "sustained_readership" not in by
-    assert any(g["metric"] == "sustained_readership" for g in out["gaps"])
+    assert "readership_persistence" not in by
+    assert any(g["metric"] == "readership_persistence" for g in out["gaps"])
 
 
 def test_openalex_parse_offline_is_a_declared_gap():

@@ -24,13 +24,13 @@
       {
         "confidence": "medium",
         "contribution": 0.05,
-        "metric": "sustained_readership",
+        "metric": "readership_persistence",
         "normalized": 1.0,
         "provenance_url": "https://openalex.org/W2194775991",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 93992.0,
+        "value": 15.0,
         "weight": 0.05
       },
       {
@@ -73,13 +73,13 @@
       {
         "confidence": "medium",
         "contribution": 0.4,
-        "metric": "sustained_readership",
+        "metric": "readership_persistence",
         "normalized": 1.0,
         "provenance_url": "https://openalex.org/W2194775991",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 93992.0,
+        "value": 15.0,
         "weight": 0.4
       },
       {
@@ -122,13 +122,13 @@
       {
         "confidence": "medium",
         "contribution": 0.1,
-        "metric": "sustained_readership",
+        "metric": "readership_persistence",
         "normalized": 1.0,
         "provenance_url": "https://openalex.org/W2194775991",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 93992.0,
+        "value": 15.0,
         "weight": 0.1
       },
       {

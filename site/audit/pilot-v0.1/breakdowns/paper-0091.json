@@ -23,14 +23,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 0.00147,
-        "metric": "sustained_readership",
-        "normalized": 0.029396,
+        "contribution": 0.042857,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
         "provenance_url": "https://openalex.org/W2473418344",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 2763.0,
+        "value": 13.0,
         "weight": 0.05
       },
       {
@@ -42,107 +42,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 40,
+    "rank": 46,
     "scenario": "academic",
-    "score": -0.210309,
-    "work_id": "paper-0091",
-    "work_type": "paper"
-  },
-  "broad_influence": {
-    "canonical_title": "Deep Learning with Differential Privacy",
-    "components": [
-      {
-        "confidence": "high",
-        "contribution": 0.005288,
-        "metric": "citation_count",
-        "normalized": 0.026441,
-        "provenance_url": "https://openalex.org/W2473418344",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 5874.0,
-        "weight": 0.2
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.125,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.25
-      },
-      {
-        "confidence": "medium",
-        "contribution": 0.011758,
-        "metric": "sustained_readership",
-        "normalized": 0.029396,
-        "provenance_url": "https://openalex.org/W2473418344",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 2763.0,
-        "weight": 0.4
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.075,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.15
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 31,
-    "scenario": "broad_influence",
-    "score": -0.182954,
-    "work_id": "paper-0091",
-    "work_type": "paper"
-  },
-  "governance_practitioner": {
-    "canonical_title": "Deep Learning with Differential Privacy",
-    "components": [
-      {
-        "confidence": "high",
-        "contribution": 0.00661,
-        "metric": "citation_count",
-        "normalized": 0.026441,
-        "provenance_url": "https://openalex.org/W2473418344",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 5874.0,
-        "weight": 0.25
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.15,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.3
-      },
-      {
-        "confidence": "medium",
-        "contribution": 0.00294,
-        "metric": "sustained_readership",
-        "normalized": 0.029396,
-        "provenance_url": "https://openalex.org/W2473418344",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 2763.0,
-        "weight": 0.1
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.175,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.35
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 37,
-    "scenario": "governance_practitioner",
-    "score": -0.31545,
+    "score": -0.168922,
     "work_id": "paper-0091",
     "work_type": "paper"
   }

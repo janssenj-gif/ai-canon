@@ -23,14 +23,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 4e-06,
-        "metric": "sustained_readership",
-        "normalized": 7.4e-05,
+        "contribution": 0.046429,
+        "metric": "readership_persistence",
+        "normalized": 0.928571,
         "provenance_url": "https://openalex.org/W3129711340",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 7.0,
+        "value": 14.0,
         "weight": 0.05
       },
       {
@@ -42,58 +42,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 45,
+    "rank": 42,
     "scenario": "academic",
-    "score": -0.214832,
-    "work_id": "paper-0017",
-    "work_type": "paper"
-  },
-  "governance_practitioner": {
-    "canonical_title": "Maximum Likelihood from Incomplete Data via the EM Algorithm",
-    "components": [
-      {
-        "confidence": "high",
-        "contribution": 0.005082,
-        "metric": "citation_count",
-        "normalized": 0.020328,
-        "provenance_url": "https://openalex.org/W3129711340",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 4516.0,
-        "weight": 0.25
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.15,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.3
-      },
-      {
-        "confidence": "medium",
-        "contribution": 7e-06,
-        "metric": "sustained_readership",
-        "normalized": 7.4e-05,
-        "provenance_url": "https://openalex.org/W3129711340",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 7.0,
-        "weight": 0.1
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.175,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.35
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 47,
-    "scenario": "governance_practitioner",
-    "score": -0.319911,
+    "score": -0.168407,
     "work_id": "paper-0017",
     "work_type": "paper"
   }

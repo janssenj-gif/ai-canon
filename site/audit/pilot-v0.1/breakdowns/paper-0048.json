@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "A Neural Probabilistic Language Model",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.006021,
+        "metric": "citation_count",
+        "normalized": 0.012041,
+        "provenance_url": "https://openalex.org/W2998704965",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2675.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.05,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2998704965",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 47,
+    "scenario": "academic",
+    "score": -0.168979,
+    "work_id": "paper-0048",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "A Neural Probabilistic Language Model",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002408,
+        "metric": "citation_count",
+        "normalized": 0.012041,
+        "provenance_url": "https://openalex.org/W2998704965",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2675.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.4,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2998704965",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 36,
+    "scenario": "broad_influence",
+    "score": 0.202408,
+    "work_id": "paper-0048",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "A Neural Probabilistic Language Model",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00301,
+        "metric": "citation_count",
+        "normalized": 0.012041,
+        "provenance_url": "https://openalex.org/W2998704965",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2675.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.1,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2998704965",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 41,
+    "scenario": "governance_practitioner",
+    "score": -0.22199,
+    "work_id": "paper-0048",
+    "work_type": "paper"
+  }
+}

@@ -23,14 +23,14 @@
       },
       {
         "confidence": "low",
-        "contribution": 0.001627,
-        "metric": "sustained_readership",
-        "normalized": 0.032535,
+        "contribution": 0.042857,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
         "provenance_url": "https://openalex.org/W1945616565",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 3058.0,
+        "value": 13.0,
         "weight": 0.05
       },
       {
@@ -42,107 +42,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 34,
+    "rank": 35,
     "scenario": "academic",
-    "score": -0.205023,
-    "work_id": "paper-0074",
-    "work_type": "paper"
-  },
-  "broad_influence": {
-    "canonical_title": "Explaining and Harnessing Adversarial Examples",
-    "components": [
-      {
-        "confidence": "medium",
-        "contribution": 0.00734,
-        "metric": "citation_count",
-        "normalized": 0.0367,
-        "provenance_url": "https://openalex.org/W1945616565",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 8153.0,
-        "weight": 0.2
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.125,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.25
-      },
-      {
-        "confidence": "low",
-        "contribution": 0.013014,
-        "metric": "sustained_readership",
-        "normalized": 0.032535,
-        "provenance_url": "https://openalex.org/W1945616565",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 3058.0,
-        "weight": 0.4
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.075,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.15
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 28,
-    "scenario": "broad_influence",
-    "score": -0.179646,
-    "work_id": "paper-0074",
-    "work_type": "paper"
-  },
-  "governance_practitioner": {
-    "canonical_title": "Explaining and Harnessing Adversarial Examples",
-    "components": [
-      {
-        "confidence": "medium",
-        "contribution": 0.009175,
-        "metric": "citation_count",
-        "normalized": 0.0367,
-        "provenance_url": "https://openalex.org/W1945616565",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 8153.0,
-        "weight": 0.25
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.15,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.3
-      },
-      {
-        "confidence": "low",
-        "contribution": 0.003253,
-        "metric": "sustained_readership",
-        "normalized": 0.032535,
-        "provenance_url": "https://openalex.org/W1945616565",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 3058.0,
-        "weight": 0.1
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.175,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.35
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 32,
-    "scenario": "governance_practitioner",
-    "score": -0.312572,
+    "score": -0.163793,
     "work_id": "paper-0074",
     "work_type": "paper"
   }

@@ -23,14 +23,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 0.001501,
-        "metric": "sustained_readership",
-        "normalized": 0.030013,
+        "contribution": 0.05,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
         "provenance_url": "https://openalex.org/W2136922672",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 2821.0,
+        "value": 15.0,
         "weight": 0.05
       },
       {
@@ -44,7 +44,7 @@
     "conflict_flag": false,
     "rank": 19,
     "scenario": "academic",
-    "score": -0.186572,
+    "score": -0.138073,
     "work_id": "paper-0049",
     "work_type": "paper"
   },
@@ -72,14 +72,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 0.012005,
-        "metric": "sustained_readership",
-        "normalized": 0.030013,
+        "contribution": 0.4,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
         "provenance_url": "https://openalex.org/W2136922672",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 2821.0,
+        "value": 15.0,
         "weight": 0.4
       },
       {
@@ -91,9 +91,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 24,
+    "rank": 17,
     "scenario": "broad_influence",
-    "score": -0.173224,
+    "score": 0.214771,
     "work_id": "paper-0049",
     "work_type": "paper"
   },
@@ -121,14 +121,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 0.003001,
-        "metric": "sustained_readership",
-        "normalized": 0.030013,
+        "contribution": 0.1,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
         "provenance_url": "https://openalex.org/W2136922672",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 2821.0,
+        "value": 15.0,
         "weight": 0.1
       },
       {
@@ -140,9 +140,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 21,
+    "rank": 19,
     "scenario": "governance_practitioner",
-    "score": -0.303535,
+    "score": -0.206536,
     "work_id": "paper-0049",
     "work_type": "paper"
   }

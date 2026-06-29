@@ -1,7 +1,7 @@
 {
   "by_metric_name": {
     "citation_count": 88,
-    "sustained_readership": 86
+    "readership_persistence": 86
   },
   "csv_drop_rows": 0,
   "gaps": [
@@ -26,12 +26,12 @@
       "work_id": "paper-0019"
     },
     {
-      "metric": "sustained_readership",
+      "metric": "readership_persistence",
       "reason": "matched work has no counts_by_year",
       "work_id": "paper-0020"
     },
     {
-      "metric": "sustained_readership",
+      "metric": "readership_persistence",
       "reason": "matched work has no counts_by_year",
       "work_id": "paper-0028"
     },

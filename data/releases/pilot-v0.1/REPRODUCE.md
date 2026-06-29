@@ -9,7 +9,7 @@ make release           # rebuild this release
 make verify-release    # assert corpus_hash + rankings are bit-identical
 ```
 
-- corpus_hash: `b8e76cc87afcb2a51cb7dfef005784c941bfdcf9769bfd1470f2df2d38de72c2`
+- corpus_hash: `ecaac0049c25baa9fac29029722653b58ae7845fd24469380bdae734da929554`
 - method_version: `0.1-pilot`
 - date (metadata, not hashed): 2026-06-29
 

@@ -23,14 +23,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 0.002615,
-        "metric": "sustained_readership",
-        "normalized": 0.052302,
+        "contribution": 0.042857,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
         "provenance_url": "https://openalex.org/W1821462560",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 4916.0,
+        "value": 13.0,
         "weight": 0.05
       },
       {
@@ -42,58 +42,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 23,
+    "rank": 27,
     "scenario": "academic",
-    "score": -0.19095,
-    "work_id": "paper-0073",
-    "work_type": "paper"
-  },
-  "broad_influence": {
-    "canonical_title": "Distilling the Knowledge in a Neural Network",
-    "components": [
-      {
-        "confidence": "high",
-        "contribution": 0.012574,
-        "metric": "citation_count",
-        "normalized": 0.062871,
-        "provenance_url": "https://openalex.org/W1821462560",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 13967.0,
-        "weight": 0.2
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.125,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.25
-      },
-      {
-        "confidence": "medium",
-        "contribution": 0.020921,
-        "metric": "sustained_readership",
-        "normalized": 0.052302,
-        "provenance_url": "https://openalex.org/W1821462560",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 4916.0,
-        "weight": 0.4
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.075,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.15
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 17,
-    "scenario": "broad_influence",
-    "score": -0.166505,
+    "score": -0.150708,
     "work_id": "paper-0073",
     "work_type": "paper"
   },
@@ -121,14 +72,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 0.00523,
-        "metric": "sustained_readership",
-        "normalized": 0.052302,
+        "contribution": 0.085714,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
         "provenance_url": "https://openalex.org/W1821462560",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 4916.0,
+        "value": 13.0,
         "weight": 0.1
       },
       {
@@ -140,9 +91,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 22,
+    "rank": 49,
     "scenario": "governance_practitioner",
-    "score": -0.304052,
+    "score": -0.223568,
     "work_id": "paper-0073",
     "work_type": "paper"
   }

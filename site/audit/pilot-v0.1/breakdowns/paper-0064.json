@@ -23,14 +23,14 @@
       },
       {
         "confidence": "low",
-        "contribution": 0.000879,
-        "metric": "sustained_readership",
-        "normalized": 0.017576,
+        "contribution": 0.042857,
+        "metric": "readership_persistence",
+        "normalized": 0.857143,
         "provenance_url": "https://openalex.org/W1673923490",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 1652.0,
+        "value": 13.0,
         "weight": 0.05
       },
       {
@@ -42,107 +42,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 41,
+    "rank": 48,
     "scenario": "academic",
-    "score": -0.211191,
-    "work_id": "paper-0064",
-    "work_type": "paper"
-  },
-  "broad_influence": {
-    "canonical_title": "Intriguing Properties of Neural Networks",
-    "components": [
-      {
-        "confidence": "medium",
-        "contribution": 0.005172,
-        "metric": "citation_count",
-        "normalized": 0.02586,
-        "provenance_url": "https://openalex.org/W1673923490",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 5745.0,
-        "weight": 0.2
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.125,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.25
-      },
-      {
-        "confidence": "low",
-        "contribution": 0.00703,
-        "metric": "sustained_readership",
-        "normalized": 0.017576,
-        "provenance_url": "https://openalex.org/W1673923490",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 1652.0,
-        "weight": 0.4
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.075,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.15
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 36,
-    "scenario": "broad_influence",
-    "score": -0.187798,
-    "work_id": "paper-0064",
-    "work_type": "paper"
-  },
-  "governance_practitioner": {
-    "canonical_title": "Intriguing Properties of Neural Networks",
-    "components": [
-      {
-        "confidence": "medium",
-        "contribution": 0.006465,
-        "metric": "citation_count",
-        "normalized": 0.02586,
-        "provenance_url": "https://openalex.org/W1673923490",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 5745.0,
-        "weight": 0.25
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.15,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.3
-      },
-      {
-        "confidence": "low",
-        "contribution": 0.001758,
-        "metric": "sustained_readership",
-        "normalized": 0.017576,
-        "provenance_url": "https://openalex.org/W1673923490",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 1652.0,
-        "weight": 0.1
-      },
-      {
-        "metric": "syllabus_adoptions",
-        "missing_data_penalty": 0.175,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
-        "weight": 0.35
-      }
-    ],
-    "conflict_flag": false,
-    "rank": 40,
-    "scenario": "governance_practitioner",
-    "score": -0.316777,
+    "score": -0.169213,
     "work_id": "paper-0064",
     "work_type": "paper"
   }

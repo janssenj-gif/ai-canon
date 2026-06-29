@@ -1,0 +1,51 @@
+{
+  "broad_influence": {
+    "canonical_title": "A Learning Algorithm for Boltzmann Machines",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.000669,
+        "metric": "citation_count",
+        "normalized": 0.003345,
+        "provenance_url": "https://openalex.org/W4255825300",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 743.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.4,
+        "metric": "readership_persistence",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W4255825300",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 45,
+    "scenario": "broad_influence",
+    "score": 0.200669,
+    "work_id": "paper-0022",
+    "work_type": "paper"
+  }
+}
