@@ -104,6 +104,11 @@ is enforced by `scripts/static-gate.sh`.
   or build artifacts.
 - **[S12] Architecture drift.** Every `[S##]` named here has a corresponding gate check; the
   gate fails if this document and the checks diverge.
+- **[S13] Accessibility.** A full axe-core pass across all page types is clean (0 violations).
+  A static lint keeps the prerequisites from regressing in CI without a browser: every page
+  declares a language, has exactly one h1, gives every image alt text, and never skips a
+  heading level. Body links are underlined (distinguishable without color) and footer text
+  meets the contrast threshold.
 
 ## Non-functional requirements
 

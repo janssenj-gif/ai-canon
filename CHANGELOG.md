@@ -93,9 +93,13 @@ Derived from the AI Control Index app's posture and adapted for a static site.
 - Output safety: `esc()` escapes quotes too; `safe_url()` scheme-sanitizes data-derived hrefs
   (javascript:/data: collapse to `#`); adversarial XSS fixtures prove hostile titles,
   descriptions, and URLs cannot become markup or script. [S8]
-- `scripts/static-gate.sh` runs all 13 guardrails [S0]-[S12]; CI runs the gate; [S12] fails the
+- `scripts/static-gate.sh` runs all guardrails [S0]-[S13]; CI runs the gate; [S12] fails the
   build if ARCHITECTURE.md and the checks drift. ARCHITECTURE.md added with the [S##] system.
-- 38 tests (8 security). The question behind this: if a million experts probe it, does it hold.
+- [S13] Accessibility: a full axe-core pass across all 14 page types is clean (0 violations).
+  Fixed body links to be underlined (distinguishable without color) and footer text contrast
+  (a global `p` rule was rendering footer text dark-on-dark); promoted a heading to fix order.
+  A static a11y lint (lang, single h1, img alt, heading order) keeps it from regressing in CI.
+- 39 tests (8 security). The question behind this: if a million experts probe it, does it hold.
 
 ### Not yet
 Book metric harvesting (title collisions: deferred), CN verification toward 60-90,

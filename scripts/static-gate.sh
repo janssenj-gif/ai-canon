@@ -15,7 +15,7 @@ run "[S2] no ad/affiliate/tracker"  bash scripts/guard_no_trackers.sh
 run "[S11] clean deployable (no source/secrets in site/)" \
     bash -c '! find site -type f \( -name "*.py" -o -name "*.pyc" -o -name ".env" -o -name "*.sqlite*" \) | grep -q .'
 run "[S12] architecture drift"      bash -c '
-  for s in S0 S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11 S12; do
+  for s in S0 S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11 S12 S13; do
     grep -q "\[$s\]" ARCHITECTURE.md || { echo "ARCHITECTURE.md missing [$s]"; exit 1; }
   done'
 

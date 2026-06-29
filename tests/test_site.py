@@ -49,3 +49,26 @@ def test_no_em_dashes_anywhere_in_site():
     site.build()
     offenders = [h.name for h in site.SITE.rglob("*.html") if "—" in h.read_text("utf-8")]
     assert offenders == [], offenders
+
+
+def test_accessibility_invariants():
+    """[S13] Static a11y guardrail. The full Axe pass is clean; this keeps the
+    structural prerequisites from regressing without a browser in CI: a language,
+    exactly one h1, alt text on every image, and no skipped heading levels."""
+    site.build()
+    problems = []
+    for html in site.SITE.rglob("*.html"):
+        t = html.read_text("utf-8")
+        if '<html lang="' not in t:
+            problems.append(f"{html.name}: missing lang")
+        if t.count("<h1") != 1:
+            problems.append(f"{html.name}: {t.count('<h1')} h1 (want 1)")
+        for img in re.findall(r"<img\b[^>]*>", t):
+            if "alt=" not in img:
+                problems.append(f"{html.name}: img without alt")
+        levels = [int(m) for m in re.findall(r"<h([1-6])\b", t)]
+        for prev, cur in zip(levels, levels[1:]):
+            if cur > prev + 1:
+                problems.append(f"{html.name}: heading jump h{prev}->h{cur}")
+                break
+    assert problems == [], problems
