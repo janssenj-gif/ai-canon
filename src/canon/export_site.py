@@ -158,8 +158,27 @@ padding-top:14px;border-top:1px solid rgba(255,255,255,.08);max-width:820px}
 def esc(x) -> str:
     # House style: no em-dashes in copy. Normalize at the rendering boundary so
     # even verbatim seed text (descriptions, significance lines) cannot show one.
-    text = html.escape(str(x if x is not None else ""))
+    # html.escape(quote=True) neutralizes < > & " ' so no data field can break out
+    # of text or an attribute (XSS defense in depth).
+    text = html.escape(str(x if x is not None else ""), quote=True)
     return text.replace(" — ", ", ").replace("—", ", ").replace("–", "-")
+
+
+# Only these URL schemes may appear in a generated href/src; anything else
+# (javascript:, data:, vbscript:, file:, ...) collapses to "#". Defense in depth:
+# a data-derived link (e.g. a metric's provenance_url) cannot become script.
+_SAFE_SCHEMES = ("https://", "http://", "mailto:")
+
+
+def safe_url(u) -> str:
+    s = str(u or "").strip()
+    if s.lower().startswith(_SAFE_SCHEMES):
+        return s
+    # Allow purely relative links (no scheme); reject any colon before the first
+    # slash, which signals a scheme that is not on the allow-list.
+    if ":" not in s.split("/", 1)[0]:
+        return s
+    return "#"
 
 
 def _nav(active: str, prefix: str) -> str:
@@ -185,9 +204,9 @@ def shell(active: str, kicker: str, title: str, body: str, *, depth: int = 0) ->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)} - The AI Canon</title>
 <meta name="description" content="The AI Canon is a free, method-backed reference library for AI knowledge. It ranks texts, not people.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
-<style>{_STYLE}</style></head><body>
+<link rel="stylesheet" href="{prefix}assets/fonts.css">
+<link rel="stylesheet" href="{prefix}assets/canon.css">
+</head><body>
 {_nav(active, prefix)}
 <header class="h"><div class="measure"><span class="overline">{esc(kicker)}</span><h1>{esc(title)}</h1></div></header>
 <main><div class="measure">{body}</div></main>
@@ -348,7 +367,7 @@ def page_work(work_id: str, per_scenario: dict, papers: dict) -> str:
         for c in row["components"]:
             if c.get("status") == "present":
                 prov = c.get("provenance_url", "")
-                prov_a = f'<a href="{esc(prov)}">link</a>' if prov else "none"
+                prov_a = f'<a href="{esc(safe_url(prov))}" rel="nofollow noopener">link</a>' if prov else "none"
                 rows.append(
                     f'<tr><td class="mono">{esc(c["metric"])}</td><td>present</td>'
                     f'<td class="num">{esc(c.get("value",""))}</td><td class="num">{esc(c.get("normalized",""))}</td>'
@@ -579,7 +598,7 @@ def page_library(books: list[dict]) -> str:
             f'<div class="meta">{meta}<span class="badge">{esc(ed.get("source",""))}</span></div>'
             f'{desc}</div>'
         )
-    body = head + "".join(entries) + f"<script>{_LIB_FILTER_JS}</script>"
+    body = head + "".join(entries) + '<script src="assets/canon.js" defer></script>'
     return shell("library.html", "The library, 573 candidate works", "Library", body)
 
 
@@ -700,7 +719,28 @@ def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
     path.write_text(buf.getvalue(), encoding="utf-8")
 
 
+# Cloudflare Pages _headers. Strict CSP with NO unsafe-inline anywhere: all CSS
+# and JS are external 'self' files, fonts are self-hosted, the only image is the
+# self logo. default-src 'none' denies everything not explicitly allowed. There is
+# no backend, no form, no third-party request, so connect/form/frame all close.
+_HEADERS = """/*
+  Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Permissions-Policy: accelerometer=(), autoplay=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+"""
+
+
 def build() -> dict:
+    # Externalized assets so the CSP can forbid inline script and style entirely.
+    _write("assets/canon.css", _STYLE.strip() + "\n")
+    _write("assets/canon.js", _LIB_FILTER_JS.strip() + "\n")
+    _write("_headers", _HEADERS)
+
     release = _load(RELEASES / VERSION / "release.json")
     rankings = {
         p.stem: _load(p) for p in sorted((RELEASES / VERSION / "rankings").glob("*.json"))

@@ -81,6 +81,22 @@ Append-only. Scoring-logic or weight changes must land with an entry here (rule 
   and a one-command `reproduce.sh`. Verified: extracted into a clean directory with no repo, it rebuilds
   the release and reports corpus_hash MATCH. This is what makes the package archival and time-invariant.
 
+### Security hardening to the app's bar (v1.2, the [S##] guardrails)
+Derived from the AI Control Index app's posture and adapted for a static site.
+- Strict CSP in `site/_headers`: `default-src 'none'`, no `unsafe-inline` / `unsafe-eval`,
+  plus X-Content-Type-Options, Referrer-Policy, X-Frame-Options DENY, COOP, CORP,
+  Permissions-Policy, HSTS. [S5]
+- All CSS and JS externalized to `site/assets/` so the strict CSP holds; no inline script or
+  style remains in any page. [S6]
+- Self-hosted the DM fonts (reused the owner's licensed woff2): zero third-party requests,
+  no Google Fonts. [S7]
+- Output safety: `esc()` escapes quotes too; `safe_url()` scheme-sanitizes data-derived hrefs
+  (javascript:/data: collapse to `#`); adversarial XSS fixtures prove hostile titles,
+  descriptions, and URLs cannot become markup or script. [S8]
+- `scripts/static-gate.sh` runs all 13 guardrails [S0]-[S12]; CI runs the gate; [S12] fails the
+  build if ARCHITECTURE.md and the checks drift. ARCHITECTURE.md added with the [S##] system.
+- 38 tests (8 security). The question behind this: if a million experts probe it, does it hold.
+
 ### Not yet
 Book metric harvesting (title collisions: deferred), CN verification toward 60-90,
 more harvested metrics (next OpenAlex daily window + WorldCat/Open Syllabus drops),

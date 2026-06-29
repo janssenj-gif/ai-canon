@@ -46,4 +46,7 @@ test:
 guard:
 	bash scripts/guard_no_trackers.sh
 
+gate:
+	bash scripts/static-gate.sh
+
 all: guard test

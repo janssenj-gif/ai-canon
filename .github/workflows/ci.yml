@@ -17,8 +17,5 @@ jobs:
       - name: Install dependencies
         run: pip install pydantic openpyxl pyyaml pytest
 
-      - name: Guard — no ad / affiliate / tracker code (rule 1)
-        run: bash scripts/guard_no_trackers.sh
-
-      - name: Tests
-        run: pytest -q   # pyproject sets pythonpath = src
+      - name: Ship gate (all [S##] guardrails)
+        run: PY=python3 bash scripts/static-gate.sh
