@@ -9,7 +9,8 @@
   "creators": [
     {
       "name": "Janssen, Jeroen",
-      "affiliation": "Apparens, Deventer, Netherlands"
+      "affiliation": "Apparens, Deventer, Netherlands",
+      "orcid": "0009-0001-6799-341X"
     }
   ],
   "description": "Method note for The AI Canon, a public-good reference library of the texts that define artificial intelligence. The note specifies a method for auditable knowledge curation: rankings are produced by a published, deterministic procedure over declared evidence, so any reader can reproduce a result and challenge it. It states the frozen ontology (canonical entities are scored, context entities are described and never ranked, structurally), the deterministic and domain-isolated scoring, the handling of missing evidence (recorded and penalized, never imputed), the per-ecosystem normalization rule and its declared deferral, entity-resolution safety, the append-only governance and challenge model, and the reproducibility guarantee (every release rebuilds bit-for-bit from a self-contained audit package). It is honest about current coverage: the pilot scores the papers domain only, and the Chinese-language spine is a declared gap. Nothing is for sale, nothing is hidden, nothing is final.",

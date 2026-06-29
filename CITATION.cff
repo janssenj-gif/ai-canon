@@ -15,7 +15,7 @@ authors:
   - family-names: Janssen
     given-names: Jeroen
     affiliation: "Apparens, Deventer, Netherlands"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add your ORCID before deposit
+    orcid: "https://orcid.org/0009-0001-6799-341X"
 keywords:
   - artificial intelligence
   - knowledge curation
