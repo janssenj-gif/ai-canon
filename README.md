@@ -24,10 +24,24 @@ python3.12 -m venv .venv
 make install        # pip install deps into .venv
 
 make ingest         # import the 3 seed workbooks -> data/seeds/*.json
+make harvest        # fetch OpenAlex citations -> write-once cache data/raw/openalex/
+make assemble       # derive + validate + dedupe metrics -> data/resolved/metrics.json
+make score-papers   # rank the papers domain from real harvested evidence
 make score          # deterministically score the fixture corpus
 make test           # run the constitutional test suite
 make guard          # verify no ad/affiliate/tracker code (rule 1)
 ```
+
+`harvest` hits the network once and caches each response under `data/raw/openalex/`
+(write-once); `assemble` and every later run derive metrics from that pinned cache
+with no network, so the pipeline is reproducible. A work with no harvested metric
+is a declared coverage gap (see `data/resolved/coverage.json`), never a fabricated zero.
+
+> OpenAlex meters a small **free daily budget** (resets midnight UTC). The harvest
+> is cached and resumable: if a run hits `429 Insufficient budget`, just re-run
+> `make harvest` on a later day — cached papers are skipped and only the gaps are
+> fetched. Current snapshot: **88 / 162 papers** have citations; the rest are
+> declared gaps that fill on subsequent daily runs.
 
 The pipeline is run with `PYTHONPATH=src` (the `Makefile` sets it) rather than an
 editable install — `make` targets are the canonical entry points. To run a module

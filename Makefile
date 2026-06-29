@@ -8,7 +8,7 @@
 PY ?= .venv/bin/python
 export PYTHONPATH := src
 
-.PHONY: install ingest score test guard all
+.PHONY: install ingest harvest assemble score score-papers test guard all
 
 install:
 	$(PY) -m pip install -q pydantic openpyxl pyyaml pytest
@@ -16,8 +16,17 @@ install:
 ingest:
 	$(PY) -m canon.ingest
 
+harvest:
+	$(PY) -m canon.harvest.openalex
+
+assemble:
+	$(PY) -m canon.harvest.assemble
+
 score:
 	$(PY) -m canon.score --fixtures --scenario academic --work-type book
+
+score-papers:
+	$(PY) -m canon.score --corpus --work-type paper --scenario academic --top 20
 
 test:
 	$(PY) -m pytest -q

@@ -185,6 +185,37 @@ def to_json(rows: list[dict]) -> str:
     return json.dumps(rows, sort_keys=True, ensure_ascii=False, indent=2)
 
 
+def _load_corpus_works(work_type: str) -> list:
+    from .schema import Work
+
+    fname = {"book": "books.json", "paper": "papers.json"}[work_type]
+    recs = json.loads((_REPO_ROOT / "data" / "seeds" / fname).read_text("utf-8"))
+    return [
+        Work(
+            id=r["id"],
+            canonical_title=r["canonical_title"],
+            original_title=r.get("original_title"),
+            language=r["language"],
+            year=r.get("year"),
+            work_type=r["work_type"],
+            conflict_flag=r.get("conflict_flag", False),
+        )
+        for r in recs
+    ]
+
+
+def _load_corpus_metrics() -> dict[str, list]:
+    from .schema import Metric
+
+    path = _REPO_ROOT / "data" / "resolved" / "metrics.json"
+    if not path.exists():
+        return {}
+    out: dict[str, list] = {}
+    for m in json.loads(path.read_text("utf-8")):
+        out.setdefault(m["work_id"], []).append(Metric(**m))
+    return out
+
+
 def _main(argv: list[str] | None = None) -> int:
     import argparse
 
@@ -192,16 +223,28 @@ def _main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--fixtures", action="store_true", help="score the bundled fixture corpus"
     )
-    parser.add_argument("--scenario", default="academic")
     parser.add_argument(
-        "--work-type",
-        default="book",
-        help="which domain to rank (fixtures span book/paper/standard)",
+        "--corpus",
+        action="store_true",
+        help="score the real corpus (data/seeds + data/resolved/metrics.json)",
     )
+    parser.add_argument("--scenario", default="academic")
+    parser.add_argument("--work-type", default="book")
+    parser.add_argument("--top", type=int, default=20, help="rows to print in --corpus mode")
     args = parser.parse_args(argv)
 
+    if args.corpus:
+        metrics_by_work = _load_corpus_metrics()
+        # Only rank works that have at least one harvested metric; the rest are
+        # an honestly-declared coverage gap, not a fabricated zero.
+        works = [w for w in _load_corpus_works(args.work_type) if w.id in metrics_by_work]
+        rows = rank_within_domain(works, metrics_by_work, args.scenario)
+        print(f"# {args.work_type} domain — {args.scenario} — {len(rows)} works with evidence")
+        print(to_json(rows[: args.top]))
+        return 0
+
     if not args.fixtures:
-        parser.error("only --fixtures mode is implemented in the Sprint-1 skeleton")
+        parser.error("pass --fixtures or --corpus")
 
     from . import fixtures
 
