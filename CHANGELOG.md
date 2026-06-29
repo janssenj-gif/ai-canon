@@ -22,6 +22,19 @@ Append-only. Scoring-logic or weight changes must land with an entry here (rule 
 - Scorer gains `--corpus` mode: ranks real works that have harvested evidence; works
   without evidence are an honestly-declared coverage gap, not a fabricated zero.
 
+### Sprint 3 — release builder, audit package, adversarial review (CAN-15/16/17)
+- `canon.release`: frozen release under `data/releases/<version>/` — Top-50 per
+  (domain, scenario), full per-work breakdowns, divergence summary, a `Release`
+  governance record with a deterministic `corpus_hash` (date is metadata, not hashed),
+  coverage.json, and REPRODUCE.md. `--verify` rebuilds and asserts bit-identical (rule 3).
+- `canon.redteam`: adversarial-review harness — reproducibility, provenance completeness,
+  domain isolation, no-imputation, conflict-flag surfacing, declared coverage, ranking
+  sanity, divergence honesty → `reports/red_team_findings.md` + a GATE-A verdict.
+- **Pilot release `pilot-v0.1`: GATE A (machinery) PASS** — 0 blocking findings; reproducible
+  (corpus_hash `bec66b9d…`). Ranks 88 papers with real citations across 3 scenarios.
+- Declared limitation (honest): with only `citation_count` harvested, the 3 scenarios share
+  one ordering — the divergence claim is NOT yet demonstrated and needs the other metrics.
+
 ### Not yet
 Book metric harvesting (title collisions — deferred), CN verification toward 60–90,
-the real Top-50 release builder + audit package, adversarial review (GATE A), public site.
+multi-metric harvest to demonstrate scenario divergence, public site (Stage C).

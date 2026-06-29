@@ -1,0 +1,134 @@
+{
+  "academic": {
+    "canonical_title": "Efficient Estimation of Word Representations in Vector Space",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.026416,
+        "metric": "citation_count",
+        "normalized": 0.052833,
+        "provenance_url": "https://openalex.org/W2950577311",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11737.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.025,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 27,
+    "scenario": "academic",
+    "score": -0.223584,
+    "work_id": "paper-0060",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Efficient Estimation of Word Representations in Vector Space",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010567,
+        "metric": "citation_count",
+        "normalized": 0.052833,
+        "provenance_url": "https://openalex.org/W2950577311",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11737.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 27,
+    "scenario": "broad_influence",
+    "score": -0.389433,
+    "work_id": "paper-0060",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Efficient Estimation of Word Representations in Vector Space",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.013208,
+        "metric": "citation_count",
+        "normalized": 0.052833,
+        "provenance_url": "https://openalex.org/W2950577311",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11737.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.05,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 27,
+    "scenario": "governance_practitioner",
+    "score": -0.361792,
+    "work_id": "paper-0060",
+    "work_type": "paper"
+  }
+}

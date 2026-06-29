@@ -8,7 +8,7 @@
 PY ?= .venv/bin/python
 export PYTHONPATH := src
 
-.PHONY: install ingest harvest assemble score score-papers test guard all
+.PHONY: install ingest harvest assemble score score-papers release verify-release redteam test guard all
 
 install:
 	$(PY) -m pip install -q pydantic openpyxl pyyaml pytest
@@ -27,6 +27,15 @@ score:
 
 score-papers:
 	$(PY) -m canon.score --corpus --work-type paper --scenario academic --top 20
+
+release:
+	$(PY) -m canon.release
+
+verify-release:
+	$(PY) -m canon.release --verify
+
+redteam:
+	$(PY) -m canon.redteam
 
 test:
 	$(PY) -m pytest -q

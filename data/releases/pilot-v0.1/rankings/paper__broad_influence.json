@@ -1,0 +1,2202 @@
+[
+  {
+    "canonical_title": "Deep Residual Learning for Image Recognition",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.2,
+        "metric": "citation_count",
+        "normalized": 1.0,
+        "provenance_url": "https://openalex.org/W2194775991",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 222154.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 1,
+    "scenario": "broad_influence",
+    "score": -0.2,
+    "work_id": "paper-0079",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Random Forests",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.1137,
+        "metric": "citation_count",
+        "normalized": 0.568502,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 126295.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 2,
+    "scenario": "broad_influence",
+    "score": -0.2863,
+    "work_id": "paper-0043",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Long Short-Term Memory",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.088368,
+        "metric": "citation_count",
+        "normalized": 0.441838,
+        "provenance_url": "https://openalex.org/W2064675550",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 98156.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 3,
+    "scenario": "broad_influence",
+    "score": -0.311632,
+    "work_id": "paper-0038",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Adam: A Method for Stochastic Optimization",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.076329,
+        "metric": "citation_count",
+        "normalized": 0.381645,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 84784.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 4,
+    "scenario": "broad_influence",
+    "score": -0.323671,
+    "work_id": "paper-0070",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Fuzzy Sets",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.059555,
+        "metric": "citation_count",
+        "normalized": 0.297775,
+        "provenance_url": "https://openalex.org/W4211007335",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 66152.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 5,
+    "scenario": "broad_influence",
+    "score": -0.340445,
+    "work_id": "paper-0012",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Gradient-Based Learning Applied to Document Recognition",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.052441,
+        "metric": "citation_count",
+        "normalized": 0.262205,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 58250.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 6,
+    "scenario": "broad_influence",
+    "score": -0.347559,
+    "work_id": "paper-0041",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Regression Shrinkage and Selection via the Lasso",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.046645,
+        "metric": "citation_count",
+        "normalized": 0.233226,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 51812.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 7,
+    "scenario": "broad_influence",
+    "score": -0.353355,
+    "work_id": "paper-0037",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Going Deeper with Convolutions",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.042164,
+        "metric": "citation_count",
+        "normalized": 0.210822,
+        "provenance_url": "https://openalex.org/W2097117768",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 46835.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 8,
+    "scenario": "broad_influence",
+    "score": -0.357836,
+    "work_id": "paper-0068",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.030861,
+        "metric": "citation_count",
+        "normalized": 0.154303,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 34279.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 9,
+    "scenario": "broad_influence",
+    "score": -0.369139,
+    "work_id": "paper-0061",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "GloVe: Global Vectors for Word Representation",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.030406,
+        "metric": "citation_count",
+        "normalized": 0.15203,
+        "provenance_url": "https://openalex.org/W2250539671",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 33774.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 10,
+    "scenario": "broad_influence",
+    "score": -0.369594,
+    "work_id": "paper-0065",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Support-Vector Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.02976,
+        "metric": "citation_count",
+        "normalized": 0.148798,
+        "provenance_url": "https://openalex.org/W2119821739",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 33056.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 11,
+    "scenario": "broad_influence",
+    "score": -0.37024,
+    "work_id": "paper-0035",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Learning Representations by Back-Propagating Errors",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.027826,
+        "metric": "citation_count",
+        "normalized": 0.139129,
+        "provenance_url": "https://openalex.org/W1498436455",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 30908.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 12,
+    "scenario": "broad_influence",
+    "score": -0.372174,
+    "work_id": "paper-0024",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Human-Level Control Through Deep Reinforcement Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.027005,
+        "metric": "citation_count",
+        "normalized": 0.135023,
+        "provenance_url": "https://openalex.org/W2145339207",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 29996.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 13,
+    "scenario": "broad_influence",
+    "score": -0.372995,
+    "work_id": "paper-0076",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Greedy Function Approximation: A Gradient Boosting Machine",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.026108,
+        "metric": "citation_count",
+        "normalized": 0.13054,
+        "provenance_url": "https://openalex.org/W1678356000",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 29000.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 14,
+    "scenario": "broad_influence",
+    "score": -0.373892,
+    "work_id": "paper-0045",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Latent Dirichlet Allocation",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.024353,
+        "metric": "citation_count",
+        "normalized": 0.121767,
+        "provenance_url": "https://openalex.org/W1880262756",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 27051.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 15,
+    "scenario": "broad_influence",
+    "score": -0.375647,
+    "work_id": "paper-0047",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Reducing the Dimensionality of Data with Neural Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.018875,
+        "metric": "citation_count",
+        "normalized": 0.094376,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20966.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 16,
+    "scenario": "broad_influence",
+    "score": -0.381125,
+    "work_id": "paper-0050",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.0183,
+        "metric": "citation_count",
+        "normalized": 0.0915,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20327.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 17,
+    "scenario": "broad_influence",
+    "score": -0.3817,
+    "work_id": "paper-0039",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.016203,
+        "metric": "citation_count",
+        "normalized": 0.081016,
+        "provenance_url": "https://openalex.org/W1995341919",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17998.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 18,
+    "scenario": "broad_influence",
+    "score": -0.383797,
+    "work_id": "paper-0001",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Fast Learning Algorithm for Deep Belief Nets",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.014771,
+        "metric": "citation_count",
+        "normalized": 0.073854,
+        "provenance_url": "https://openalex.org/W2136922672",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 16407.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 19,
+    "scenario": "broad_influence",
+    "score": -0.385229,
+    "work_id": "paper-0049",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.014256,
+        "metric": "citation_count",
+        "normalized": 0.071279,
+        "provenance_url": "https://openalex.org/W2257979135",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15835.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 20,
+    "scenario": "broad_influence",
+    "score": -0.385744,
+    "work_id": "paper-0082",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Auto-Encoding Variational Bayes",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.01407,
+        "metric": "citation_count",
+        "normalized": 0.070348,
+        "provenance_url": "https://openalex.org/W1959608418",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 15628.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 21,
+    "scenario": "broad_influence",
+    "score": -0.38593,
+    "work_id": "paper-0063",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.013162,
+        "metric": "citation_count",
+        "normalized": 0.06581,
+        "provenance_url": "https://openalex.org/W2133564696",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 14620.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 22,
+    "scenario": "broad_influence",
+    "score": -0.386838,
+    "work_id": "paper-0075",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Distilling the Knowledge in a Neural Network",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.012574,
+        "metric": "citation_count",
+        "normalized": 0.062871,
+        "provenance_url": "https://openalex.org/W1821462560",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 13967.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 23,
+    "scenario": "broad_influence",
+    "score": -0.387426,
+    "work_id": "paper-0073",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "No Free Lunch Theorems for Optimization",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.01255,
+        "metric": "citation_count",
+        "normalized": 0.062749,
+        "provenance_url": "https://openalex.org/W2151554678",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 13940.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 24,
+    "scenario": "broad_influence",
+    "score": -0.38745,
+    "work_id": "paper-0040",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "The PageRank Citation Ranking: Bringing Order to the Web",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.011416,
+        "metric": "citation_count",
+        "normalized": 0.057078,
+        "provenance_url": "https://openalex.org/W1854214752",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12680.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 25,
+    "scenario": "broad_influence",
+    "score": -0.388584,
+    "work_id": "paper-0042",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.01059,
+        "metric": "citation_count",
+        "normalized": 0.05295,
+        "provenance_url": "https://openalex.org/W2040870580",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11763.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 26,
+    "scenario": "broad_influence",
+    "score": -0.38941,
+    "work_id": "paper-0006",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Efficient Estimation of Word Representations in Vector Space",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010567,
+        "metric": "citation_count",
+        "normalized": 0.052833,
+        "provenance_url": "https://openalex.org/W2950577311",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11737.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 27,
+    "scenario": "broad_influence",
+    "score": -0.389433,
+    "work_id": "paper-0060",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Matrix Factorization Techniques for Recommender Systems",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010518,
+        "metric": "citation_count",
+        "normalized": 0.05259,
+        "provenance_url": "https://openalex.org/W2054141820",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11683.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 28,
+    "scenario": "broad_influence",
+    "score": -0.389482,
+    "work_id": "paper-0053",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Mathematical Theory of Communication",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00877,
+        "metric": "citation_count",
+        "normalized": 0.043852,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9742.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 29,
+    "scenario": "broad_influence",
+    "score": -0.39123,
+    "work_id": "paper-0003",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Self-Organized Formation of Topologically Correct Feature Maps",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008571,
+        "metric": "citation_count",
+        "normalized": 0.042853,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9520.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 30,
+    "scenario": "broad_influence",
+    "score": -0.391429,
+    "work_id": "paper-0021",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Multilayer Feedforward Networks Are Universal Approximators",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008428,
+        "metric": "citation_count",
+        "normalized": 0.042142,
+        "provenance_url": "https://openalex.org/W3146803896",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9362.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 31,
+    "scenario": "broad_influence",
+    "score": -0.391572,
+    "work_id": "paper-0027",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Mastering the Game of Go Without Human Knowledge",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008283,
+        "metric": "citation_count",
+        "normalized": 0.041413,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9200.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 32,
+    "scenario": "broad_influence",
+    "score": -0.391717,
+    "work_id": "paper-0094",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Q-Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008078,
+        "metric": "citation_count",
+        "normalized": 0.040391,
+        "provenance_url": "https://openalex.org/W32403112",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8973.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 33,
+    "scenario": "broad_influence",
+    "score": -0.391922,
+    "work_id": "paper-0032",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Explaining and Harnessing Adversarial Examples",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.00734,
+        "metric": "citation_count",
+        "normalized": 0.0367,
+        "provenance_url": "https://openalex.org/W1945616565",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8153.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 34,
+    "scenario": "broad_influence",
+    "score": -0.39266,
+    "work_id": "paper-0074",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Semi-Supervised Classification with Graph Convolutional Networks",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.007263,
+        "metric": "citation_count",
+        "normalized": 0.036317,
+        "provenance_url": "https://openalex.org/W2519887557",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8068.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 35,
+    "scenario": "broad_influence",
+    "score": -0.392737,
+    "work_id": "paper-0092",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Robust Layered Control System for a Mobile Robot",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.006978,
+        "metric": "citation_count",
+        "normalized": 0.03489,
+        "provenance_url": "https://openalex.org/W2097856935",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7751.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 36,
+    "scenario": "broad_influence",
+    "score": -0.393022,
+    "work_id": "paper-0023",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Unified Approach to Interpreting Model Predictions",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.006862,
+        "metric": "citation_count",
+        "normalized": 0.03431,
+        "provenance_url": "https://openalex.org/W2618851150",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 7622.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 37,
+    "scenario": "broad_influence",
+    "score": -0.393138,
+    "work_id": "paper-0097",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Attention Is All You Need",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.00592,
+        "metric": "citation_count",
+        "normalized": 0.029601,
+        "provenance_url": "https://openalex.org/W2626778328",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6576.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 38,
+    "scenario": "broad_influence",
+    "score": -0.39408,
+    "work_id": "paper-0093",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Minds, Brains, and Programs",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.005839,
+        "metric": "citation_count",
+        "normalized": 0.029196,
+        "provenance_url": "https://openalex.org/W2251410821",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6486.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 39,
+    "scenario": "broad_influence",
+    "score": -0.394161,
+    "work_id": "paper-0018",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Deep Learning with Differential Privacy",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.005288,
+        "metric": "citation_count",
+        "normalized": 0.026441,
+        "provenance_url": "https://openalex.org/W2473418344",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 5874.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 40,
+    "scenario": "broad_influence",
+    "score": -0.394712,
+    "work_id": "paper-0091",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Intriguing Properties of Neural Networks",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.005172,
+        "metric": "citation_count",
+        "normalized": 0.02586,
+        "provenance_url": "https://openalex.org/W1673923490",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 5745.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 41,
+    "scenario": "broad_influence",
+    "score": -0.394828,
+    "work_id": "paper-0064",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Intelligence Without Representation",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00424,
+        "metric": "citation_count",
+        "normalized": 0.021202,
+        "provenance_url": "https://openalex.org/W2397253692",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4710.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 42,
+    "scenario": "broad_influence",
+    "score": -0.39576,
+    "work_id": "paper-0031",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Generative Adversarial Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00412,
+        "metric": "citation_count",
+        "normalized": 0.020598,
+        "provenance_url": "https://openalex.org/W4298289240",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4576.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 43,
+    "scenario": "broad_influence",
+    "score": -0.39588,
+    "work_id": "paper-0062",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Maximum Likelihood from Incomplete Data via the EM Algorithm",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.004066,
+        "metric": "citation_count",
+        "normalized": 0.020328,
+        "provenance_url": "https://openalex.org/W3129711340",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4516.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 44,
+    "scenario": "broad_influence",
+    "score": -0.395934,
+    "work_id": "paper-0017",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Some Studies in Machine Learning Using the Game of Checkers",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003928,
+        "metric": "citation_count",
+        "normalized": 0.01964,
+        "provenance_url": "https://openalex.org/W3198350258",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4363.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 45,
+    "scenario": "broad_influence",
+    "score": -0.396072,
+    "work_id": "paper-0007",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Sequence to Sequence Learning with Neural Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003174,
+        "metric": "citation_count",
+        "normalized": 0.015872,
+        "provenance_url": "https://openalex.org/W2949888546",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3526.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 46,
+    "scenario": "broad_influence",
+    "score": -0.396826,
+    "work_id": "paper-0066",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Fairness Through Awareness",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003042,
+        "metric": "citation_count",
+        "normalized": 0.01521,
+        "provenance_url": "https://openalex.org/W2100960835",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3379.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 47,
+    "scenario": "broad_influence",
+    "score": -0.396958,
+    "work_id": "paper-0058",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "Some Philosophical Problems from the Standpoint of Artificial Intelligence",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.002975,
+        "metric": "citation_count",
+        "normalized": 0.014877,
+        "provenance_url": "https://openalex.org/W2138162238",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3305.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 48,
+    "scenario": "broad_influence",
+    "score": -0.397025,
+    "work_id": "paper-0014",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00293,
+        "metric": "citation_count",
+        "normalized": 0.014652,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3255.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 49,
+    "scenario": "broad_influence",
+    "score": -0.39707,
+    "work_id": "paper-0080",
+    "work_type": "paper"
+  },
+  {
+    "canonical_title": "A Few Useful Things to Know About Machine Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002926,
+        "metric": "citation_count",
+        "normalized": 0.014629,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3250.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 50,
+    "scenario": "broad_influence",
+    "score": -0.397074,
+    "work_id": "paper-0059",
+    "work_type": "paper"
+  }
+]

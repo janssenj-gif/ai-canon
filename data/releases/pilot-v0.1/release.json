@@ -1,0 +1,25 @@
+{
+  "changelog_ref": "CHANGELOG.md#seed-v03",
+  "corpus_hash": "bec66b9d32f56559e1ac59656dced24447cf0004ddcac3d36f9ad4fd1e16232f",
+  "date": "2026-06-29",
+  "divergence": {
+    "paper": {
+      "identical_ordering_across_scenarios": true,
+      "note": "Scenarios produce the SAME ordering because only one metric (citation_count) is present; ordering will diverge once library_holdings / syllabus_adoptions / sustained_readership are harvested. This is a declared limitation, not a bug."
+    }
+  },
+  "method_version": "0.1-pilot",
+  "scope": {
+    "domains": {
+      "paper": 88
+    },
+    "note": "Domains without harvested metrics are omitted, not zero-filled. Books carry no metrics yet (harvesting deferred); this pilot ranks papers only.",
+    "scenarios": [
+      "academic",
+      "broad_influence",
+      "governance_practitioner"
+    ],
+    "top_n": 50
+  },
+  "version": "pilot-v0.1"
+}

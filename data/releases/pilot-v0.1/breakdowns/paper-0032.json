@@ -1,0 +1,134 @@
+{
+  "academic": {
+    "canonical_title": "Q-Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.020195,
+        "metric": "citation_count",
+        "normalized": 0.040391,
+        "provenance_url": "https://openalex.org/W32403112",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8973.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.025,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 33,
+    "scenario": "academic",
+    "score": -0.229805,
+    "work_id": "paper-0032",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Q-Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008078,
+        "metric": "citation_count",
+        "normalized": 0.040391,
+        "provenance_url": "https://openalex.org/W32403112",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8973.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 33,
+    "scenario": "broad_influence",
+    "score": -0.391922,
+    "work_id": "paper-0032",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Q-Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010098,
+        "metric": "citation_count",
+        "normalized": 0.040391,
+        "provenance_url": "https://openalex.org/W32403112",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 8973.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.05,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 33,
+    "scenario": "governance_practitioner",
+    "score": -0.364902,
+    "work_id": "paper-0032",
+    "work_type": "paper"
+  }
+}

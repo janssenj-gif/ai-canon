@@ -1,0 +1,134 @@
+{
+  "academic": {
+    "canonical_title": "Matrix Factorization Techniques for Recommender Systems",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.026295,
+        "metric": "citation_count",
+        "normalized": 0.05259,
+        "provenance_url": "https://openalex.org/W2054141820",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11683.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.025,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 28,
+    "scenario": "academic",
+    "score": -0.223705,
+    "work_id": "paper-0053",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Matrix Factorization Techniques for Recommender Systems",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010518,
+        "metric": "citation_count",
+        "normalized": 0.05259,
+        "provenance_url": "https://openalex.org/W2054141820",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11683.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.2,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 28,
+    "scenario": "broad_influence",
+    "score": -0.389482,
+    "work_id": "paper-0053",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Matrix Factorization Techniques for Recommender Systems",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.013147,
+        "metric": "citation_count",
+        "normalized": 0.05259,
+        "provenance_url": "https://openalex.org/W2054141820",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 11683.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "metric": "sustained_readership",
+        "missing_data_penalty": 0.05,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 28,
+    "scenario": "governance_practitioner",
+    "score": -0.361853,
+    "work_id": "paper-0053",
+    "work_type": "paper"
+  }
+}
