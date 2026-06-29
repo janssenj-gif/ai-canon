@@ -62,9 +62,31 @@ directly: `PYTHONPATH=src .venv/bin/python -m canon.ingest`. `pytest` needs no
 
 ## What the pipeline guarantees
 
-- **Deterministic** — same inputs + scenario → bit-identical ranks.
-- **Provenance on every number** — a metric without source/date/url is rejected.
-- **No silent imputation** — missing evidence is recorded and penalized by rule.
-- **Domains never cross-rank** — a standard is never ranked against a monograph.
-- **People are never scored** — context entities have no score field, structurally.
-- **No ads, affiliates, or trackers** — enforced in CI.
+- **Deterministic**: same inputs + scenario produce bit-identical ranks.
+- **Provenance on every number**: a metric without source, date, or url is rejected.
+- **No silent imputation**: missing evidence is recorded and penalized by rule.
+- **Domains never cross-rank**: a standard is never ranked against a monograph.
+- **People are never scored**: context entities have no score field, structurally.
+- **No ads, affiliates, or trackers**: enforced in CI.
+
+## Security and the ship gate
+
+The public site is static and hardened to the standard of the Apparens app: a strict
+Content-Security-Policy (no inline script or style), self-hosted fonts (zero third-party
+requests), HTML escaping and URL-scheme sanitization with adversarial tests, and a clean
+axe-core accessibility pass. Every guardrail is numbered `[S0]` to `[S13]` in
+[`ARCHITECTURE.md`](ARCHITECTURE.md) and enforced by `make gate` (`scripts/static-gate.sh`);
+`[S12]` fails the build if the document and the checks drift.
+
+## Cite this work
+
+The method is documented in [`docs/method-note.md`](docs/method-note.md) (Corpus Cognitivum),
+licensed CC BY 4.0. A DOI is minted on release via Zenodo:
+
+<!-- After the first Zenodo release, replace XXXXXXX with the concept DOI and uncomment: -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+
+> Janssen, J. (2026). *The AI Canon: a method for auditable knowledge curation (Corpus
+> Cognitivum).* Apparens public research initiative. Version 1.0.
+
+See [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
