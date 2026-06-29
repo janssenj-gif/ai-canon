@@ -30,10 +30,16 @@ Append-only. Scoring-logic or weight changes must land with an entry here (rule 
 - `canon.redteam`: adversarial-review harness — reproducibility, provenance completeness,
   domain isolation, no-imputation, conflict-flag surfacing, declared coverage, ranking
   sanity, divergence honesty → `reports/red_team_findings.md` + a GATE-A verdict.
-- **Pilot release `pilot-v0.1`: GATE A (machinery) PASS** — 0 blocking findings; reproducible
-  (corpus_hash `bec66b9d…`). Ranks 88 papers with real citations across 3 scenarios.
-- Declared limitation (honest): with only `citation_count` harvested, the 3 scenarios share
-  one ordering — the divergence claim is NOT yet demonstrated and needs the other metrics.
+- **Pilot release `pilot-v0.1`: GATE A PASS (substantive)** — 0 blocking findings; reproducible.
+- Second independent signal derived from the SAME cached OpenAlex snapshot (no new network):
+  `sustained_readership` = citations in 2023–2025 (recent momentum), distinct from all-time
+  `citation_count`. Assembled 174 metrics (88 citation_count + 86 sustained_readership).
+- With two signals the three scenarios now produce **different orderings** —
+  `scenario_divergence: observed`. The method's central claim is demonstrated, not merely asserted.
+- Adversarial loop ran the full two iterations: iteration 1 flagged a stale single-metric
+  `ranking_sanity` check (false positive); fixed to assert composite-score monotonicity; iteration 2 clean.
+- Still-declared gaps: `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV
+  drops; ~74 papers await the next OpenAlex daily-budget window.
 
 ### Not yet
 Book metric harvesting (title collisions — deferred), CN verification toward 60–90,

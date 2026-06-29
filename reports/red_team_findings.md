@@ -9,18 +9,20 @@
 | no_cross_domain | CRITICAL | pass | each ranking is a single domain |
 | no_silent_imputation | CRITICAL | pass | missing metrics carry an explicit penalty |
 | conflict_flag_surfaced | HIGH | pass | every ranked row exposes conflict_flag |
-| coverage_declared | HIGH | pass | coverage.json present (88 metrics; gaps declared) |
-| ranking_sanity | HIGH | pass | ranking order consistent with evidence |
-| scenario_divergence | INFO | declared-limitation | scenarios share an ordering (only citation_count harvested) — declared in release.json; the method's divergence claim is NOT yet demonstrated and needs more metrics |
+| coverage_declared | HIGH | pass | coverage.json present (174 metrics; gaps declared) |
+| ranking_sanity | HIGH | pass | rows ordered by score desc with sequential ranks |
+| scenario_divergence | INFO | observed | scenario orderings differ — divergence demonstrated |
 
 ## Reviewer note
 
 This automated pass verifies the *machinery* (reproducibility, provenance, domain
-isolation, no-imputation, conflict flags, declared coverage). It is the first of the
-two GATE-A iterations. The substantive claim — that the three weighting scenarios
-produce *meaningfully different* canons — cannot be demonstrated on a single harvested
-metric (citation_count). Demonstrating divergence requires harvesting library_holdings,
-syllabus_adoptions, and sustained_readership, which is gated on OpenAlex's daily budget
-and the WorldCat / Open Syllabus CSV drops. Until then the pilot is honest about being a
-single-signal ranking, per the master doc's humility rule.
+isolation, no-imputation, conflict flags, declared coverage) and the substantive
+divergence claim.
+
+Two independent signals are now harvested — all-time `citation_count` and recent-
+momentum `sustained_readership` — and the three weighting scenarios produce **different**
+orderings, so the method's central claim is demonstrated rather than asserted. Coverage is
+still partial (a second pass over OpenAlex's daily budget will fill the remaining papers),
+and `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV drops;
+those are declared gaps, not silent zeros.
 

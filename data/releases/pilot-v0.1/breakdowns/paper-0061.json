@@ -22,10 +22,15 @@
         "weight": 0.2
       },
       {
+        "confidence": "medium",
+        "contribution": 0.003628,
         "metric": "sustained_readership",
-        "missing_data_penalty": 0.025,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
+        "normalized": 0.072559,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6820.0,
         "weight": 0.05
       },
       {
@@ -39,7 +44,7 @@
     "conflict_flag": false,
     "rank": 9,
     "scenario": "academic",
-    "score": -0.172849,
+    "score": -0.144221,
     "work_id": "paper-0061",
     "work_type": "paper"
   },
@@ -66,10 +71,15 @@
         "weight": 0.25
       },
       {
+        "confidence": "medium",
+        "contribution": 0.029024,
         "metric": "sustained_readership",
-        "missing_data_penalty": 0.2,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
+        "normalized": 0.072559,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6820.0,
         "weight": 0.4
       },
       {
@@ -81,9 +91,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 9,
+    "rank": 13,
     "scenario": "broad_influence",
-    "score": -0.369139,
+    "score": -0.140115,
     "work_id": "paper-0061",
     "work_type": "paper"
   },
@@ -110,10 +120,15 @@
         "weight": 0.3
       },
       {
+        "confidence": "medium",
+        "contribution": 0.007256,
         "metric": "sustained_readership",
-        "missing_data_penalty": 0.05,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
+        "normalized": 0.072559,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6820.0,
         "weight": 0.1
       },
       {
@@ -125,9 +140,9 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 9,
+    "rank": 10,
     "scenario": "governance_practitioner",
-    "score": -0.336424,
+    "score": -0.279168,
     "work_id": "paper-0061",
     "work_type": "paper"
   }

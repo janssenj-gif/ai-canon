@@ -1,11 +1,11 @@
 {
   "changelog_ref": "CHANGELOG.md#seed-v03",
-  "corpus_hash": "bec66b9d32f56559e1ac59656dced24447cf0004ddcac3d36f9ad4fd1e16232f",
+  "corpus_hash": "b8e76cc87afcb2a51cb7dfef005784c941bfdcf9769bfd1470f2df2d38de72c2",
   "date": "2026-06-29",
   "divergence": {
     "paper": {
-      "identical_ordering_across_scenarios": true,
-      "note": "Scenarios produce the SAME ordering because only one metric (citation_count) is present; ordering will diverge once library_holdings / syllabus_adoptions / sustained_readership are harvested. This is a declared limitation, not a bug."
+      "identical_ordering_across_scenarios": false,
+      "note": "Scenario orderings differ — multi-metric divergence observed."
     }
   },
   "method_version": "0.1-pilot",

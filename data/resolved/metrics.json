@@ -10,6 +10,16 @@
     "work_id": "paper-0001"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1995341919",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3623.0,
+    "work_id": "paper-0001"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -17,6 +27,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 221.0,
+    "work_id": "paper-0002"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2177637792",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 0.0,
     "work_id": "paper-0002"
   },
   {
@@ -32,11 +52,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2041404167",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 17.0,
+    "work_id": "paper-0003"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W4307979480",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 1351.0,
+    "work_id": "paper-0004"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4307979480",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 476.0,
     "work_id": "paper-0004"
   },
   {
@@ -47,6 +87,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 11763.0,
+    "work_id": "paper-0006"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2040870580",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2857.0,
     "work_id": "paper-0006"
   },
   {
@@ -62,11 +112,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3198350258",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1012.0,
+    "work_id": "paper-0007"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W2119409989",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 808.0,
+    "work_id": "paper-0008"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2119409989",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2.0,
     "work_id": "paper-0008"
   },
   {
@@ -77,6 +147,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 1795.0,
+    "work_id": "paper-0009"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2141373701",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 351.0,
     "work_id": "paper-0009"
   },
   {
@@ -92,11 +172,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W205043379",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3.0,
+    "work_id": "paper-0010"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1923807516",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 821.0,
+    "work_id": "paper-0011"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1923807516",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 21.0,
     "work_id": "paper-0011"
   },
   {
@@ -112,11 +212,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4211007335",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 11580.0,
+    "work_id": "paper-0012"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W2138162238",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 3305.0,
+    "work_id": "paper-0014"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2138162238",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 172.0,
     "work_id": "paper-0014"
   },
   {
@@ -130,6 +250,16 @@
     "work_id": "paper-0015"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2402164836",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 0.0,
+    "work_id": "paper-0015"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -140,6 +270,16 @@
     "work_id": "paper-0017"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3129711340",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 7.0,
+    "work_id": "paper-0017"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -147,6 +287,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 6486.0,
+    "work_id": "paper-0018"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2251410821",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1218.0,
     "work_id": "paper-0018"
   },
   {
@@ -170,6 +320,16 @@
     "work_id": "paper-0021"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W65738273",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1115.0,
+    "work_id": "paper-0021"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -177,6 +337,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 743.0,
+    "work_id": "paper-0022"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4255825300",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 263.0,
     "work_id": "paper-0022"
   },
   {
@@ -190,6 +360,16 @@
     "work_id": "paper-0023"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2097856935",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 270.0,
+    "work_id": "paper-0023"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -197,6 +377,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 30908.0,
+    "work_id": "paper-0024"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1498436455",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 8485.0,
     "work_id": "paper-0024"
   },
   {
@@ -210,6 +400,16 @@
     "work_id": "paper-0025"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2143075689",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 167.0,
+    "work_id": "paper-0025"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -220,6 +420,16 @@
     "work_id": "paper-0026"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3041202696",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 540.0,
+    "work_id": "paper-0026"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -227,6 +437,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 9362.0,
+    "work_id": "paper-0027"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3146803896",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 24.0,
     "work_id": "paper-0027"
   },
   {
@@ -250,6 +470,16 @@
     "work_id": "paper-0029"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2107019937",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 366.0,
+    "work_id": "paper-0029"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -257,6 +487,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 2929.0,
+    "work_id": "paper-0030"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4254816979",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 372.0,
     "work_id": "paper-0030"
   },
   {
@@ -270,6 +510,16 @@
     "work_id": "paper-0031"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2397253692",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 330.0,
+    "work_id": "paper-0031"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -277,6 +527,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 8973.0,
+    "work_id": "paper-0032"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W32403112",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2765.0,
     "work_id": "paper-0032"
   },
   {
@@ -290,6 +550,16 @@
     "work_id": "paper-0033"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4241811150",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 348.0,
+    "work_id": "paper-0033"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -297,6 +567,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 14.0,
+    "work_id": "paper-0034"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2075429907",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 0.0,
     "work_id": "paper-0034"
   },
   {
@@ -310,6 +590,16 @@
     "work_id": "paper-0035"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2119821739",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2798.0,
+    "work_id": "paper-0035"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -317,6 +607,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 769.0,
+    "work_id": "paper-0036"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2787259794",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 9.0,
     "work_id": "paper-0036"
   },
   {
@@ -330,6 +630,16 @@
     "work_id": "paper-0037"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2135046866",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 12028.0,
+    "work_id": "paper-0037"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -337,6 +647,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 98156.0,
+    "work_id": "paper-0038"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2064675550",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 36739.0,
     "work_id": "paper-0038"
   },
   {
@@ -350,6 +670,16 @@
     "work_id": "paper-0039"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1988790447",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3877.0,
+    "work_id": "paper-0039"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -357,6 +687,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 13940.0,
+    "work_id": "paper-0040"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2151554678",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3904.0,
     "work_id": "paper-0040"
   },
   {
@@ -372,11 +712,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2112796928",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 17774.0,
+    "work_id": "paper-0041"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1854214752",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 12680.0,
+    "work_id": "paper-0042"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1854214752",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 725.0,
     "work_id": "paper-0042"
   },
   {
@@ -387,6 +747,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 126295.0,
+    "work_id": "paper-0043"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2911964244",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 44817.0,
     "work_id": "paper-0043"
   },
   {
@@ -402,11 +772,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2160455305",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 69.0,
+    "work_id": "paper-0044"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1678356000",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 29000.0,
+    "work_id": "paper-0045"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1678356000",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 11527.0,
     "work_id": "paper-0045"
   },
   {
@@ -420,6 +810,16 @@
     "work_id": "paper-0047"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1880262756",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1238.0,
+    "work_id": "paper-0047"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -427,6 +827,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 2675.0,
+    "work_id": "paper-0048"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2998704965",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 336.0,
     "work_id": "paper-0048"
   },
   {
@@ -440,6 +850,16 @@
     "work_id": "paper-0049"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2136922672",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2821.0,
+    "work_id": "paper-0049"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -447,6 +867,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 20966.0,
+    "work_id": "paper-0050"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2100495367",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 4817.0,
     "work_id": "paper-0050"
   },
   {
@@ -462,11 +892,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2951358372",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 4.0,
+    "work_id": "paper-0051"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1581742186",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 147.0,
+    "work_id": "paper-0052"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1581742186",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 6.0,
     "work_id": "paper-0052"
   },
   {
@@ -480,6 +930,16 @@
     "work_id": "paper-0053"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2054141820",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2732.0,
+    "work_id": "paper-0053"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -487,6 +947,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 2945.0,
+    "work_id": "paper-0054"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4239072543",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 953.0,
     "work_id": "paper-0054"
   },
   {
@@ -500,6 +970,16 @@
     "work_id": "paper-0055"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2103018059",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 484.0,
+    "work_id": "paper-0055"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -507,6 +987,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 766.0,
+    "work_id": "paper-0056"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3147600416",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 0.0,
     "work_id": "paper-0056"
   },
   {
@@ -520,6 +1010,16 @@
     "work_id": "paper-0057"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2184045248",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 49.0,
+    "work_id": "paper-0057"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -527,6 +1027,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 3379.0,
+    "work_id": "paper-0058"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2100960835",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1316.0,
     "work_id": "paper-0058"
   },
   {
@@ -540,6 +1050,16 @@
     "work_id": "paper-0059"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2161336914",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 915.0,
+    "work_id": "paper-0059"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -550,6 +1070,16 @@
     "work_id": "paper-0060"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2950577311",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 30.0,
+    "work_id": "paper-0060"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -557,6 +1087,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 34279.0,
+    "work_id": "paper-0061"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2095705004",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 6820.0,
     "work_id": "paper-0061"
   },
   {
@@ -572,11 +1112,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W4298289240",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2059.0,
+    "work_id": "paper-0062"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1959608418",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 15628.0,
+    "work_id": "paper-0063"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1959608418",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3941.0,
     "work_id": "paper-0063"
   },
   {
@@ -590,6 +1150,16 @@
     "work_id": "paper-0064"
   },
   {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1673923490",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1652.0,
+    "work_id": "paper-0064"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -597,6 +1167,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 33774.0,
+    "work_id": "paper-0065"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2250539671",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 8029.0,
     "work_id": "paper-0065"
   },
   {
@@ -610,6 +1190,16 @@
     "work_id": "paper-0066"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2949888546",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3.0,
+    "work_id": "paper-0066"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -617,6 +1207,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 30.0,
+    "work_id": "paper-0067"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3209259379",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 5.0,
     "work_id": "paper-0067"
   },
   {
@@ -632,11 +1232,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2097117768",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 12121.0,
+    "work_id": "paper-0068"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1522301498",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 84784.0,
+    "work_id": "paper-0070"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1522301498",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 24047.0,
     "work_id": "paper-0070"
   },
   {
@@ -647,6 +1267,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 102.0,
+    "work_id": "paper-0072"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2952232639",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 0.0,
     "work_id": "paper-0072"
   },
   {
@@ -662,11 +1292,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1821462560",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 4916.0,
+    "work_id": "paper-0073"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W1945616565",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 8153.0,
+    "work_id": "paper-0074"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1945616565",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3058.0,
     "work_id": "paper-0074"
   },
   {
@@ -680,6 +1330,16 @@
     "work_id": "paper-0075"
   },
   {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2133564696",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 3003.0,
+    "work_id": "paper-0075"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -687,6 +1347,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 29996.0,
+    "work_id": "paper-0076"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2145339207",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 10594.0,
     "work_id": "paper-0076"
   },
   {
@@ -700,6 +1370,16 @@
     "work_id": "paper-0077"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2189162242",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 303.0,
+    "work_id": "paper-0077"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -707,6 +1387,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 222154.0,
+    "work_id": "paper-0079"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2194775991",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 93992.0,
     "work_id": "paper-0079"
   },
   {
@@ -720,6 +1410,16 @@
     "work_id": "paper-0080"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W1483870316",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1507.0,
+    "work_id": "paper-0080"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -730,6 +1430,16 @@
     "work_id": "paper-0081"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2949382160",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 7.0,
+    "work_id": "paper-0081"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -737,6 +1447,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 15835.0,
+    "work_id": "paper-0082"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2257979135",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 4113.0,
     "work_id": "paper-0082"
   },
   {
@@ -752,11 +1472,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2998145016",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 18.0,
+    "work_id": "paper-0083"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W2951501516",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 347.0,
+    "work_id": "paper-0085"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2951501516",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2.0,
     "work_id": "paper-0085"
   },
   {
@@ -770,6 +1510,16 @@
     "work_id": "paper-0086"
   },
   {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3123374861",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 78.0,
+    "work_id": "paper-0086"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -777,6 +1527,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 1362.0,
+    "work_id": "paper-0088"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2483215953",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 345.0,
     "work_id": "paper-0088"
   },
   {
@@ -790,6 +1550,16 @@
     "work_id": "paper-0089"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2950538796",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2.0,
+    "work_id": "paper-0089"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -797,6 +1567,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 3.0,
+    "work_id": "paper-0090"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W3125705410",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 0.0,
     "work_id": "paper-0090"
   },
   {
@@ -812,11 +1592,31 @@
   {
     "confidence": "medium",
     "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2473418344",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2763.0,
+    "work_id": "paper-0091"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
     "provenance_url": "https://openalex.org/W2519887557",
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 8068.0,
+    "work_id": "paper-0092"
+  },
+  {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2519887557",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2188.0,
     "work_id": "paper-0092"
   },
   {
@@ -830,6 +1630,16 @@
     "work_id": "paper-0093"
   },
   {
+    "confidence": "low",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2626778328",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 47.0,
+    "work_id": "paper-0093"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -837,6 +1647,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 9200.0,
+    "work_id": "paper-0094"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2766447205",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 2771.0,
     "work_id": "paper-0094"
   },
   {
@@ -850,6 +1670,16 @@
     "work_id": "paper-0096"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2626804490",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 288.0,
+    "work_id": "paper-0096"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -857,6 +1687,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 7622.0,
+    "work_id": "paper-0097"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2618851150",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 4938.0,
     "work_id": "paper-0097"
   },
   {
@@ -870,6 +1710,16 @@
     "work_id": "paper-0098"
   },
   {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2962922665",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 154.0,
+    "work_id": "paper-0098"
+  },
+  {
     "confidence": "high",
     "license_note": "OpenAlex, CC0 metadata",
     "metric_name": "citation_count",
@@ -877,6 +1727,16 @@
     "retrieved_at": "2026-06-29",
     "source": "OpenAlex",
     "value": 2802.0,
+    "work_id": "paper-0099"
+  },
+  {
+    "confidence": "medium",
+    "license_note": "OpenAlex, CC0 metadata",
+    "metric_name": "sustained_readership",
+    "provenance_url": "https://openalex.org/W2893425640",
+    "retrieved_at": "2026-06-29",
+    "source": "OpenAlex",
+    "value": 1130.0,
     "work_id": "paper-0099"
   }
 ]

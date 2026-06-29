@@ -1,66 +1,66 @@
 {
-  "academic": {
-    "canonical_title": "Maximum Likelihood from Incomplete Data via the EM Algorithm",
+  "broad_influence": {
+    "canonical_title": "Semantics Derived Automatically from Language Corpora Contain Human-Like Biases",
     "components": [
       {
         "confidence": "high",
-        "contribution": 0.010164,
+        "contribution": 0.002523,
         "metric": "citation_count",
-        "normalized": 0.020328,
-        "provenance_url": "https://openalex.org/W3129711340",
+        "normalized": 0.012613,
+        "provenance_url": "https://openalex.org/W2893425640",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 4516.0,
-        "weight": 0.5
-      },
-      {
-        "metric": "library_holdings",
-        "missing_data_penalty": 0.1,
-        "note": "recorded as missing; penalized by rule, never imputed",
-        "status": "missing",
+        "value": 2802.0,
         "weight": 0.2
       },
       {
-        "confidence": "medium",
-        "contribution": 4e-06,
-        "metric": "sustained_readership",
-        "normalized": 7.4e-05,
-        "provenance_url": "https://openalex.org/W3129711340",
-        "retrieved_at": "2026-06-29",
-        "source": "OpenAlex",
-        "status": "present",
-        "value": 7.0,
-        "weight": 0.05
-      },
-      {
-        "metric": "syllabus_adoptions",
+        "metric": "library_holdings",
         "missing_data_penalty": 0.125,
         "note": "recorded as missing; penalized by rule, never imputed",
         "status": "missing",
         "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.004809,
+        "metric": "sustained_readership",
+        "normalized": 0.012022,
+        "provenance_url": "https://openalex.org/W2893425640",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1130.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
       }
     ],
     "conflict_flag": false,
     "rank": 45,
-    "scenario": "academic",
-    "score": -0.214832,
-    "work_id": "paper-0017",
+    "scenario": "broad_influence",
+    "score": -0.192668,
+    "work_id": "paper-0099",
     "work_type": "paper"
   },
   "governance_practitioner": {
-    "canonical_title": "Maximum Likelihood from Incomplete Data via the EM Algorithm",
+    "canonical_title": "Semantics Derived Automatically from Language Corpora Contain Human-Like Biases",
     "components": [
       {
         "confidence": "high",
-        "contribution": 0.005082,
+        "contribution": 0.003153,
         "metric": "citation_count",
-        "normalized": 0.020328,
-        "provenance_url": "https://openalex.org/W3129711340",
+        "normalized": 0.012613,
+        "provenance_url": "https://openalex.org/W2893425640",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 4516.0,
+        "value": 2802.0,
         "weight": 0.25
       },
       {
@@ -72,14 +72,14 @@
       },
       {
         "confidence": "medium",
-        "contribution": 7e-06,
+        "contribution": 0.001202,
         "metric": "sustained_readership",
-        "normalized": 7.4e-05,
-        "provenance_url": "https://openalex.org/W3129711340",
+        "normalized": 0.012022,
+        "provenance_url": "https://openalex.org/W2893425640",
         "retrieved_at": "2026-06-29",
         "source": "OpenAlex",
         "status": "present",
-        "value": 7.0,
+        "value": 1130.0,
         "weight": 0.1
       },
       {
@@ -91,10 +91,10 @@
       }
     ],
     "conflict_flag": false,
-    "rank": 47,
+    "rank": 49,
     "scenario": "governance_practitioner",
-    "score": -0.319911,
-    "work_id": "paper-0017",
+    "score": -0.320645,
+    "work_id": "paper-0099",
     "work_type": "paper"
   }
 }

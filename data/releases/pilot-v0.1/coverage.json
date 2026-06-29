@@ -1,380 +1,391 @@
 {
   "by_metric_name": {
-    "citation_count": 88
+    "citation_count": 88,
+    "sustained_readership": 86
   },
   "csv_drop_rows": 0,
   "gaps": [
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0005"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0013"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0016"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0019"
     },
     {
-      "metric": "citation_count",
+      "metric": "sustained_readership",
+      "reason": "matched work has no counts_by_year",
+      "work_id": "paper-0020"
+    },
+    {
+      "metric": "sustained_readership",
+      "reason": "matched work has no counts_by_year",
+      "work_id": "paper-0028"
+    },
+    {
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0046"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0069"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0071"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0078"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0084"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0087"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no OpenAlex result cleared the title-match threshold",
       "work_id": "paper-0095"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0100"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0101"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0102"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0103"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0104"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0105"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0106"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0107"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0108"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0109"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0110"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0111"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0112"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0113"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0114"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0115"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0116"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0117"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0118"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0119"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0120"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0121"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0122"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0123"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0124"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0125"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0126"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0127"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0128"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0129"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0130"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0131"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0132"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0133"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0134"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0135"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0136"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0137"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0138"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0139"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0140"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0141"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0142"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0143"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0144"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0145"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0146"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0147"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0148"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0149"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0150"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0151"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0152"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0153"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0154"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0155"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0156"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0157"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0158"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0159"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0160"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0161"
     },
     {
-      "metric": "citation_count",
+      "metric": "*",
       "reason": "no cached OpenAlex response (offline / not harvested)",
       "work_id": "paper-0162"
     }
   ],
-  "metrics_total": 88,
-  "openalex_gaps": 74
+  "metrics_total": 174,
+  "openalex_gaps": 76
 }

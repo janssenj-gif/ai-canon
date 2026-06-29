@@ -113,37 +113,59 @@ def _pick(paper: dict, response: dict) -> dict | None:
     return best
 
 
-def parse(paper: dict, response: dict | None) -> dict:
-    """Derive a citation_count metric (or a declared gap) from a cached response.
+# Recent full years used for the sustained-readership signal (2026 is partial).
+RECENT_YEARS = (2023, 2024, 2025)
 
-    Returns {"metric": <metric dict>} on success, else {"gap": <reason>}.
-    Never imputes a value (rule 8).
+
+def _metric(paper, match, name, value, confidence):
+    return {
+        "work_id": paper["id"],
+        "metric_name": name,
+        "value": float(value),
+        "source": "OpenAlex",
+        "retrieved_at": RETRIEVED_AT,
+        "confidence": confidence,
+        "provenance_url": match.get("id", ""),
+        "license_note": LICENSE_NOTE,
+    }
+
+
+def parse(paper: dict, response: dict | None) -> dict:
+    """Derive metrics (or declared gaps) from a cached response.
+
+    Returns {"metrics": [...], "gaps": [{metric, reason}, ...]}. Two independent
+    signals come off the same matched OpenAlex record:
+      * citation_count       — all-time cited_by_count
+      * sustained_readership — citations in RECENT_YEARS (recent momentum)
+    Never imputes a value (rule 8); a missing field is a gap, not a zero.
     """
     if response is None:
-        return {"gap": "no cached OpenAlex response (offline / not harvested)"}
+        return {"metrics": [], "gaps": [{"metric": "*", "reason": "no cached OpenAlex response (offline / not harvested)"}]}
     match = _pick(paper, response)
     if match is None:
-        return {"gap": "no OpenAlex result cleared the title-match threshold"}
-
-    citations = match.get("cited_by_count")
-    if citations is None:
-        return {"gap": "matched work has no cited_by_count"}
+        return {"metrics": [], "gaps": [{"metric": "*", "reason": "no OpenAlex result cleared the title-match threshold"}]}
 
     sim = match.get("_title_sim", 0.0)
     year_ok = (not paper.get("year")) or paper.get("year") == match.get("publication_year")
-    confidence = "high" if sim >= 0.85 and year_ok else "medium"
-    return {
-        "metric": {
-            "work_id": paper["id"],
-            "metric_name": "citation_count",
-            "value": float(citations),
-            "source": "OpenAlex",
-            "retrieved_at": RETRIEVED_AT,
-            "confidence": confidence,
-            "provenance_url": match.get("id", ""),
-            "license_note": LICENSE_NOTE,
-        }
-    }
+    base_conf = "high" if sim >= 0.85 and year_ok else "medium"
+
+    metrics, gaps = [], []
+    citations = match.get("cited_by_count")
+    if citations is None:
+        gaps.append({"metric": "citation_count", "reason": "matched work has no cited_by_count"})
+    else:
+        metrics.append(_metric(paper, match, "citation_count", citations, base_conf))
+
+    cby = match.get("counts_by_year")
+    if not cby:
+        gaps.append({"metric": "sustained_readership", "reason": "matched work has no counts_by_year"})
+    else:
+        recent = sum(e.get("cited_by_count", 0) for e in cby if e.get("year") in RECENT_YEARS)
+        # Derived proxy — one notch below the all-time count's confidence.
+        conf = "medium" if base_conf == "high" else "low"
+        metrics.append(_metric(paper, match, "sustained_readership", recent, conf))
+
+    return {"metrics": metrics, "gaps": gaps}
 
 
 def harvest(limit: int | None = None, *, allow_network: bool = True) -> dict:

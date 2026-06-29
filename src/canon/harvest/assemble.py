@@ -25,10 +25,9 @@ def _openalex_metrics() -> tuple[list[dict], list[dict]]:
     for paper in openalex.load_papers():
         resp = openalex.fetch(paper, allow_network=False)
         out = openalex.parse(paper, resp)
-        if "metric" in out:
-            metrics.append(out["metric"])
-        else:
-            gaps.append({"work_id": paper["id"], "metric": "citation_count", "reason": out["gap"]})
+        metrics.extend(out["metrics"])
+        for g in out["gaps"]:
+            gaps.append({"work_id": paper["id"], "metric": g["metric"], "reason": g["reason"]})
     return metrics, gaps
 
 

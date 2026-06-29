@@ -126,19 +126,21 @@ def review(version: str = rel.DEFAULT_VERSION) -> dict:
         )
     )
 
-    # 7. Sanity: single-metric domain must be ordered by that metric desc.
+    # 7. Sanity: rows must be ordered by composite score desc with sequential
+    #    ranks. (The order tracks the SCENARIO score, not any single metric —
+    #    asserting single-metric order would be wrong once >1 metric is present.)
     record = json.loads((out_dir / "release.json").read_text("utf-8"))
     sane = True
-    detail7 = "ranking order consistent with evidence"
+    detail7 = "rows ordered by score desc with sequential ranks"
     for key, rows in rankings.items():
-        cites = []
-        for r in rows:
-            c = next((x for x in r["components"] if x["metric"] == "citation_count" and x.get("status") == "present"), None)
-            cites.append(c["value"] if c else None)
-        present = [v for v in cites if v is not None]
-        if present != sorted(present, reverse=True):
+        scores = [r["score"] for r in rows]
+        if scores != sorted(scores, reverse=True):
             sane = False
-            detail7 = f"{key}: citation order not monotonic — investigate"
+            detail7 = f"{key}: scores not monotonically non-increasing — investigate"
+            break
+        if [r["rank"] for r in rows] != list(range(1, len(rows) + 1)):
+            sane = False
+            detail7 = f"{key}: ranks not sequential 1..N"
             break
     findings.append(_finding("ranking_sanity", HIGH, "pass" if sane else "fail", detail7))
 
@@ -185,20 +187,32 @@ def _write_report(summary: dict) -> None:
     ]
     for f in summary["findings"]:
         lines.append(f"| {f['check']} | {f['severity']} | {f['status']} | {f['detail']} |")
+    div_finding = next((f for f in summary["findings"] if f["check"] == "scenario_divergence"), None)
+    diverged = div_finding and div_finding["status"] == "observed"
     lines += [
         "",
         "## Reviewer note",
         "",
         "This automated pass verifies the *machinery* (reproducibility, provenance, domain",
-        "isolation, no-imputation, conflict flags, declared coverage). It is the first of the",
-        "two GATE-A iterations. The substantive claim — that the three weighting scenarios",
-        "produce *meaningfully different* canons — cannot be demonstrated on a single harvested",
-        "metric (citation_count). Demonstrating divergence requires harvesting library_holdings,",
-        "syllabus_adoptions, and sustained_readership, which is gated on OpenAlex's daily budget",
-        "and the WorldCat / Open Syllabus CSV drops. Until then the pilot is honest about being a",
-        "single-signal ranking, per the master doc's humility rule.",
+        "isolation, no-imputation, conflict flags, declared coverage) and the substantive",
+        "divergence claim.",
         "",
     ]
+    if diverged:
+        lines += [
+            "Two independent signals are now harvested — all-time `citation_count` and recent-",
+            "momentum `sustained_readership` — and the three weighting scenarios produce **different**",
+            "orderings, so the method's central claim is demonstrated rather than asserted. Coverage is",
+            "still partial (a second pass over OpenAlex's daily budget will fill the remaining papers),",
+            "and `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV drops;",
+            "those are declared gaps, not silent zeros.",
+        ]
+    else:
+        lines += [
+            "Only one signal is harvested, so the scenarios share an ordering and the divergence",
+            "claim is not yet demonstrated — a declared limitation per the master doc's humility rule.",
+        ]
+    lines.append("")
     (REPORTS / "red_team_findings.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

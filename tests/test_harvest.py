@@ -26,41 +26,58 @@ def test_raw_write_once_blocks_differing_overwrite(tmp_path, monkeypatch):
 
 
 def _resp(**over):
-    base = {
-        "results": [
-            {
-                "id": "https://openalex.org/W2626778328",
-                "display_name": "Attention Is All You Need",
-                "publication_year": 2017,
-                "cited_by_count": 120000,
-            }
-        ]
+    result = {
+        "id": "https://openalex.org/W2626778328",
+        "display_name": "Attention Is All You Need",
+        "publication_year": 2017,
+        "cited_by_count": 120000,
+        "counts_by_year": [
+            {"year": 2025, "cited_by_count": 9000},
+            {"year": 2024, "cited_by_count": 8000},
+            {"year": 2023, "cited_by_count": 7000},
+            {"year": 2018, "cited_by_count": 100},
+        ],
     }
+    result.update(over.pop("result", {}))
+    base = {"results": [result]}
     base.update(over)
     return base
 
 
-def test_openalex_parse_extracts_citation_count():
+def _by_name(metrics):
+    return {m["metric_name"]: m for m in metrics}
+
+
+def test_openalex_parse_extracts_both_signals():
     paper = {"id": "paper-x", "canonical_title": "Attention Is All You Need", "year": 2017}
     out = parse(paper, _resp())
-    assert "metric" in out
-    m = out["metric"]
-    assert m["metric_name"] == "citation_count"
-    assert m["value"] == 120000.0
-    assert m["confidence"] == "high"
-    assert m["provenance_url"].startswith("https://openalex.org/")
+    by = _by_name(out["metrics"])
+    assert by["citation_count"]["value"] == 120000.0
+    assert by["citation_count"]["confidence"] == "high"
+    # sustained_readership = sum of 2023+2024+2025 only (2018 excluded)
+    assert by["sustained_readership"]["value"] == 24000.0
+    assert by["citation_count"]["provenance_url"].startswith("https://openalex.org/")
+
+
+def test_openalex_missing_counts_by_year_gaps_only_that_metric():
+    paper = {"id": "paper-x", "canonical_title": "Attention Is All You Need", "year": 2017}
+    out = parse(paper, _resp(result={"counts_by_year": []}))
+    by = _by_name(out["metrics"])
+    assert "citation_count" in by  # still present
+    assert "sustained_readership" not in by
+    assert any(g["metric"] == "sustained_readership" for g in out["gaps"])
 
 
 def test_openalex_parse_offline_is_a_declared_gap():
     paper = {"id": "paper-x", "canonical_title": "Attention Is All You Need", "year": 2017}
     out = parse(paper, None)
-    assert "metric" not in out and "gap" in out
+    assert out["metrics"] == [] and out["gaps"]
 
 
 def test_openalex_parse_no_match_is_a_gap_not_a_zero():
     paper = {"id": "paper-x", "canonical_title": "An Entirely Unrelated Title", "year": 1999}
     out = parse(paper, _resp())
-    assert "gap" in out
+    assert out["metrics"] == [] and out["gaps"]
 
 
 # --- CAN-10: CSV drops carry provenance or fail loudly ----------------------
