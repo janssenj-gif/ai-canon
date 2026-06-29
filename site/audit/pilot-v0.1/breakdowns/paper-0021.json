@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Self-Organized Formation of Topologically Correct Feature Maps",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.021427,
+        "metric": "citation_count",
+        "normalized": 0.042853,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9520.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.000593,
+        "metric": "sustained_readership",
+        "normalized": 0.011863,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1115.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 30,
+    "scenario": "academic",
+    "score": -0.20298,
+    "work_id": "paper-0021",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Self-Organized Formation of Topologically Correct Feature Maps",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008571,
+        "metric": "citation_count",
+        "normalized": 0.042853,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9520.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.004745,
+        "metric": "sustained_readership",
+        "normalized": 0.011863,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1115.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 34,
+    "scenario": "broad_influence",
+    "score": -0.186684,
+    "work_id": "paper-0021",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Self-Organized Formation of Topologically Correct Feature Maps",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010713,
+        "metric": "citation_count",
+        "normalized": 0.042853,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9520.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.001186,
+        "metric": "sustained_readership",
+        "normalized": 0.011863,
+        "provenance_url": "https://openalex.org/W65738273",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1115.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 33,
+    "scenario": "governance_practitioner",
+    "score": -0.313101,
+    "work_id": "paper-0021",
+    "work_type": "paper"
+  }
+}

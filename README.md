@@ -27,10 +27,18 @@ make ingest         # import the 3 seed workbooks -> data/seeds/*.json
 make harvest        # fetch OpenAlex citations -> write-once cache data/raw/openalex/
 make assemble       # derive + validate + dedupe metrics -> data/resolved/metrics.json
 make score-papers   # rank the papers domain from real harvested evidence
+make release        # build the frozen release data/releases/pilot-v0.1/
+make verify-release # rebuild + assert corpus_hash and rankings are bit-identical
+make redteam        # adversarial review -> reports/red_team_findings.md + GATE-A verdict
+make site           # generate the static public site into site/
 make score          # deterministically score the fixture corpus
 make test           # run the constitutional test suite
 make guard          # verify no ad/affiliate/tracker code (rule 1)
 ```
+
+`make site` emits the public site (Canon-50, per-work breakdown pages, method, challenges,
+changelog, downloadable audit package) from the release JSON — static HTML, no framework,
+no trackers. Deploy target: `apparens.nl/ai-canon/` on Cloudflare Pages.
 
 `harvest` hits the network once and caches each response under `data/raw/openalex/`
 (write-once); `assemble` and every later run derive metrics from that pinned cache

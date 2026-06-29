@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Adam: A Method for Stochastic Optimization",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.190823,
+        "metric": "citation_count",
+        "normalized": 0.381645,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 84784.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.012792,
+        "metric": "sustained_readership",
+        "normalized": 0.255841,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 24047.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 4,
+    "scenario": "academic",
+    "score": -0.021385,
+    "work_id": "paper-0070",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Adam: A Method for Stochastic Optimization",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.076329,
+        "metric": "citation_count",
+        "normalized": 0.381645,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 84784.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.102336,
+        "metric": "sustained_readership",
+        "normalized": 0.255841,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 24047.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 4,
+    "scenario": "broad_influence",
+    "score": -0.021335,
+    "work_id": "paper-0070",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Adam: A Method for Stochastic Optimization",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.095411,
+        "metric": "citation_count",
+        "normalized": 0.381645,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 84784.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "low",
+        "contribution": 0.025584,
+        "metric": "sustained_readership",
+        "normalized": 0.255841,
+        "provenance_url": "https://openalex.org/W1522301498",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 24047.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 4,
+    "scenario": "governance_practitioner",
+    "score": -0.204005,
+    "work_id": "paper-0070",
+    "work_type": "paper"
+  }
+}

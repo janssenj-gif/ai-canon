@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.077151,
+        "metric": "citation_count",
+        "normalized": 0.154303,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 34279.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.003628,
+        "metric": "sustained_readership",
+        "normalized": 0.072559,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6820.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 9,
+    "scenario": "academic",
+    "score": -0.144221,
+    "work_id": "paper-0061",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.030861,
+        "metric": "citation_count",
+        "normalized": 0.154303,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 34279.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.029024,
+        "metric": "sustained_readership",
+        "normalized": 0.072559,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6820.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 13,
+    "scenario": "broad_influence",
+    "score": -0.140115,
+    "work_id": "paper-0061",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.038576,
+        "metric": "citation_count",
+        "normalized": 0.154303,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 34279.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.007256,
+        "metric": "sustained_readership",
+        "normalized": 0.072559,
+        "provenance_url": "https://openalex.org/W2095705004",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 6820.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 10,
+    "scenario": "governance_practitioner",
+    "score": -0.279168,
+    "work_id": "paper-0061",
+    "work_type": "paper"
+  }
+}

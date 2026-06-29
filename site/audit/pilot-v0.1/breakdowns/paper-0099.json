@@ -1,0 +1,100 @@
+{
+  "broad_influence": {
+    "canonical_title": "Semantics Derived Automatically from Language Corpora Contain Human-Like Biases",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002523,
+        "metric": "citation_count",
+        "normalized": 0.012613,
+        "provenance_url": "https://openalex.org/W2893425640",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2802.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.004809,
+        "metric": "sustained_readership",
+        "normalized": 0.012022,
+        "provenance_url": "https://openalex.org/W2893425640",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1130.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 45,
+    "scenario": "broad_influence",
+    "score": -0.192668,
+    "work_id": "paper-0099",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Semantics Derived Automatically from Language Corpora Contain Human-Like Biases",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003153,
+        "metric": "citation_count",
+        "normalized": 0.012613,
+        "provenance_url": "https://openalex.org/W2893425640",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2802.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.001202,
+        "metric": "sustained_readership",
+        "normalized": 0.012022,
+        "provenance_url": "https://openalex.org/W2893425640",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1130.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 49,
+    "scenario": "governance_practitioner",
+    "score": -0.320645,
+    "work_id": "paper-0099",
+    "work_type": "paper"
+  }
+}

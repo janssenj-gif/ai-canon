@@ -1,0 +1,51 @@
+{
+  "academic": {
+    "canonical_title": "Some Philosophical Problems from the Standpoint of Artificial Intelligence",
+    "components": [
+      {
+        "confidence": "medium",
+        "contribution": 0.007439,
+        "metric": "citation_count",
+        "normalized": 0.014877,
+        "provenance_url": "https://openalex.org/W2138162238",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3305.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "low",
+        "contribution": 9.1e-05,
+        "metric": "sustained_readership",
+        "normalized": 0.00183,
+        "provenance_url": "https://openalex.org/W2138162238",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 172.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 50,
+    "scenario": "academic",
+    "score": -0.21747,
+    "work_id": "paper-0014",
+    "work_type": "paper"
+  }
+}

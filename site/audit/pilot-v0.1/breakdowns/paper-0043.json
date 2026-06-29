@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Random Forests",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.284251,
+        "metric": "citation_count",
+        "normalized": 0.568502,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 126295.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.023841,
+        "metric": "sustained_readership",
+        "normalized": 0.476817,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 44817.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 2,
+    "scenario": "academic",
+    "score": 0.083092,
+    "work_id": "paper-0043",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Random Forests",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.1137,
+        "metric": "citation_count",
+        "normalized": 0.568502,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 126295.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.190727,
+        "metric": "sustained_readership",
+        "normalized": 0.476817,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 44817.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 2,
+    "scenario": "broad_influence",
+    "score": 0.104427,
+    "work_id": "paper-0043",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Random Forests",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.142126,
+        "metric": "citation_count",
+        "normalized": 0.568502,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 126295.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.047682,
+        "metric": "sustained_readership",
+        "normalized": 0.476817,
+        "provenance_url": "https://openalex.org/W2911964244",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 44817.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 2,
+    "scenario": "governance_practitioner",
+    "score": -0.135192,
+    "work_id": "paper-0043",
+    "work_type": "paper"
+  }
+}

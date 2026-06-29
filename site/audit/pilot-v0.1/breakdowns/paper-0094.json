@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Mastering the Game of Go Without Human Knowledge",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.020706,
+        "metric": "citation_count",
+        "normalized": 0.041413,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9200.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.001474,
+        "metric": "sustained_readership",
+        "normalized": 0.029481,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2771.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 29,
+    "scenario": "academic",
+    "score": -0.20282,
+    "work_id": "paper-0094",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Mastering the Game of Go Without Human Knowledge",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.008283,
+        "metric": "citation_count",
+        "normalized": 0.041413,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9200.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.011792,
+        "metric": "sustained_readership",
+        "normalized": 0.029481,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2771.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 29,
+    "scenario": "broad_influence",
+    "score": -0.179925,
+    "work_id": "paper-0094",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Mastering the Game of Go Without Human Knowledge",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010353,
+        "metric": "citation_count",
+        "normalized": 0.041413,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9200.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.002948,
+        "metric": "sustained_readership",
+        "normalized": 0.029481,
+        "provenance_url": "https://openalex.org/W2766447205",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2771.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 29,
+    "scenario": "governance_practitioner",
+    "score": -0.311699,
+    "work_id": "paper-0094",
+    "work_type": "paper"
+  }
+}

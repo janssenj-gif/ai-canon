@@ -1,0 +1,25 @@
+{
+  "changelog_ref": "CHANGELOG.md#seed-v03",
+  "corpus_hash": "b8e76cc87afcb2a51cb7dfef005784c941bfdcf9769bfd1470f2df2d38de72c2",
+  "date": "2026-06-29",
+  "divergence": {
+    "paper": {
+      "identical_ordering_across_scenarios": false,
+      "note": "Scenario orderings differ — multi-metric divergence observed."
+    }
+  },
+  "method_version": "0.1-pilot",
+  "scope": {
+    "domains": {
+      "paper": 88
+    },
+    "note": "Domains without harvested metrics are omitted, not zero-filled. Books carry no metrics yet (harvesting deferred); this pilot ranks papers only.",
+    "scenarios": [
+      "academic",
+      "broad_influence",
+      "governance_practitioner"
+    ],
+    "top_n": 50
+  },
+  "version": "pilot-v0.1"
+}

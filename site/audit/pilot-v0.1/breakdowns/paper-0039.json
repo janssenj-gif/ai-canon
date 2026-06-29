@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.04575,
+        "metric": "citation_count",
+        "normalized": 0.0915,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20327.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.002062,
+        "metric": "sustained_readership",
+        "normalized": 0.041248,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3877.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 17,
+    "scenario": "academic",
+    "score": -0.177188,
+    "work_id": "paper-0039",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.0183,
+        "metric": "citation_count",
+        "normalized": 0.0915,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20327.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.016499,
+        "metric": "sustained_readership",
+        "normalized": 0.041248,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3877.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 16,
+    "scenario": "broad_influence",
+    "score": -0.165201,
+    "work_id": "paper-0039",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.022875,
+        "metric": "citation_count",
+        "normalized": 0.0915,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20327.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.004125,
+        "metric": "sustained_readership",
+        "normalized": 0.041248,
+        "provenance_url": "https://openalex.org/W1988790447",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3877.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 17,
+    "scenario": "governance_practitioner",
+    "score": -0.298,
+    "work_id": "paper-0039",
+    "work_type": "paper"
+  }
+}

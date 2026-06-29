@@ -1,0 +1,51 @@
+{
+  "academic": {
+    "canonical_title": "Sequence to Sequence Learning with Neural Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.007936,
+        "metric": "citation_count",
+        "normalized": 0.015872,
+        "provenance_url": "https://openalex.org/W2949888546",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3526.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 2e-06,
+        "metric": "sustained_readership",
+        "normalized": 3.2e-05,
+        "provenance_url": "https://openalex.org/W2949888546",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 48,
+    "scenario": "academic",
+    "score": -0.217062,
+    "work_id": "paper-0066",
+    "work_type": "paper"
+  }
+}

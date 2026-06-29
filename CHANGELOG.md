@@ -41,6 +41,18 @@ Append-only. Scoring-logic or weight changes must land with an entry here (rule 
 - Still-declared gaps: `library_holdings` / `syllabus_adoptions` await WorldCat / Open Syllabus CSV
   drops; ~74 papers await the next OpenAlex daily-budget window.
 
+### Stage C — public site (CAN-21..25)
+- `canon.export_site`: static generator (no framework, no JS deps, no tracker code) emits
+  `site/` from the release JSON + seeds — Canon-50 (3 scenario views), per-work breakdown
+  pages (the trust surface: every metric + provenance + missing-data penalty), papers shelf,
+  method, challenges, changelog, and a downloadable audit package under `site/audit/`.
+- The approved homepage (`site/index.html`) is wired to the live pages; its Canon-50 teaser
+  is GENERATED (top-3 injected by the builder, idempotent) so the manifesto never carries
+  hand-typed ranking data that can drift.
+- 59 pages, 621 internal links (0 broken), verified rendering in-browser. Deploy target:
+  `apparens.nl/ai-canon/` (Cloudflare Pages, static).
+
 ### Not yet
 Book metric harvesting (title collisions — deferred), CN verification toward 60–90,
-multi-metric harvest to demonstrate scenario divergence, public site (Stage C).
+more harvested metrics (next OpenAlex daily window + WorldCat/Open Syllabus drops),
+Zenodo DOI for the method note, deploy to Cloudflare Pages.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Method — The AI Canon</title>
+<meta name="description" content="The AI Canon — a free, method-backed reference library for AI knowledge.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0E2A4A;--navy-soft:#3B5268;--cream:#F4EEE2;--panel:#FBF8F1;
+--orange:#E87722;--hairline:#D9CFBE;--mono-bg:#0E2A4A;--mono-ink:#EDE6D6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--cream);color:var(--navy);font-family:"DM Sans",system-ui,sans-serif;
+font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.measure{max-width:980px;margin:0 auto;padding:0 24px}
+a{color:var(--navy);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+a:hover{color:var(--orange)}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+nav.top{background:var(--navy);color:var(--mono-ink);font-family:"DM Mono",monospace;font-size:13px}
+nav.top .measure{display:flex;flex-wrap:wrap;gap:6px 22px;padding:12px 24px}
+nav.top a{color:var(--mono-ink);text-decoration:none}
+nav.top a:hover,nav.top a[aria-current=page]{color:#fff;border-bottom:2px solid var(--orange)}
+header.h{padding:46px 0 22px;border-bottom:1px solid var(--hairline)}
+.kicker{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy-soft)}
+h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(32px,5vw,52px);line-height:1.05;margin:10px 0}
+h2{font-family:"DM Serif Display",serif;font-weight:400;font-size:26px;margin:34px 0 12px}
+h3{font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--navy-soft);margin:22px 0 8px}
+p{margin:10px 0}main{padding:24px 0 60px}
+.note{background:var(--panel);border:1px solid var(--hairline);border-left:5px solid var(--orange);padding:14px 18px;margin:18px 0;font-size:14.5px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+th{text-align:left;font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+color:var(--navy-soft);border-bottom:1px solid var(--navy);padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px dashed var(--hairline);vertical-align:top}
+td.rank,td.num{font-family:"DM Mono",monospace;white-space:nowrap}
+.tag{font-family:"DM Mono",monospace;font-size:11px;padding:1px 7px;border:1px solid var(--hairline);border-radius:10px;color:var(--navy-soft)}
+.flag{color:var(--orange);font-weight:600}
+.scn{margin:30px 0;border:1px solid var(--hairline);background:var(--panel);padding:18px 20px}
+footer{background:var(--navy);color:#8FA3B8;font-family:"DM Mono",monospace;font-size:12px;padding:34px 0}
+footer a{color:var(--mono-ink)}
+.miss{color:var(--navy-soft)}
+.mono{font-family:"DM Mono",monospace;font-size:13px}
+</style></head><body>
+<nav class="top"><div class="measure"><a href="index.html">Home</a><a href="canon-50.html">Canon 50</a><a href="papers.html">Papers</a><a href="method.html" aria-current="page">Method</a><a href="challenges.html">Challenges</a><a href="changelog.html">Changelog</a><a href="data.html">Data &amp; audit</a></div></nav>
+<header class="h"><div class="measure"><span class="kicker">Method statement</span><h1>Method</h1></div></header>
+<main><div class="measure"><h2>Rules the ranking cannot break</h2><ol><li>Deterministic scoring — identical inputs + weights produce identical ranks; reproducible from the audit package with one command.</li><li>Provenance on every number — source, retrieved_at, confidence, licence note. A number without provenance does not exist.</li><li>No silent imputation — missing evidence is recorded as missing and penalized by a published rule, never estimated.</li><li>Domains never cross-rank — books, papers, reports, and standards are scored within their own domain.</li><li>Each language ecosystem scores within itself first — coverage gaps are declared, not hidden.</li><li>People are context, not contestants — persons, organizations, and platforms carry no score, ever.</li><li>Manual decisions are records — every override carries a written rationale and is published; Apparens-authored works are flagged.</li><li>Humility on rank — a rank is a transparent output of declared evidence, weights, and missing-data rules at a release date, not a verdict on intrinsic worth.</li></ol><h2>Ontology v0.2 (frozen)</h2><p>Canonical entities (book, paper, report, standard) are scored within their domain. Context entities (person, organization, platform) are described, never ranked — structurally, they carry no score field. Governance records (releases, challenges, overrides) are append-only.</p><h2>Weighting scenarios</h2><table><thead><tr><th>Scenario</th><th>citation_count</th><th>library_holdings</th><th>sustained_readership</th><th>syllabus_adoptions</th></tr></thead><tbody><tr><td class="mono">academic</td><td class="num">0.5</td><td class="num">0.2</td><td class="num">0.05</td><td class="num">0.25</td></tr><tr><td class="mono">broad_influence</td><td class="num">0.2</td><td class="num">0.25</td><td class="num">0.4</td><td class="num">0.15</td></tr><tr><td class="mono">governance_practitioner</td><td class="num">0.25</td><td class="num">0.3</td><td class="num">0.1</td><td class="num">0.35</td></tr></tbody></table><p class="note">Missing-data penalty factor: <b>0.5</b>. Normalization: <b>per_domain_min_max</b>. method_version <b>0.1-pilot</b>. These are pilot placeholder weights; every change ships with a changelog entry.</p></div></main>
+<footer><div class="measure">THE AI CANON · an <a href="https://apparens.nl">Apparens</a> public research initiative ·
+release <b>pilot-v0.1</b> · challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a><br>
+Nothing is for sale. Nothing is hidden. Nothing is final.</div></footer>
+</body></html>

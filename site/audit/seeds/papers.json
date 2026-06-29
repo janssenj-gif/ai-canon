@@ -1,0 +1,2918 @@
+[
+  {
+    "canonical": true,
+    "canonical_title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Warren McCulloch, Walter Pitts",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "First mathematical model of the neuron; the conceptual origin of neural networks.",
+      "venue": "Bulletin of Mathematical Biophysics"
+    },
+    "id": "paper-0001",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1943
+  },
+  {
+    "canonical": true,
+    "canonical_title": "As We May Think",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Vannevar Bush",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "The memex vision; founding document of augmenting human intellect with machines.",
+      "venue": "The Atlantic"
+    },
+    "id": "paper-0002",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1945
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Mathematical Theory of Communication",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Claude E. Shannon",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Created information theory; the quantitative substrate of all machine learning.",
+      "venue": "Bell System Technical Journal"
+    },
+    "id": "paper-0003",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1948
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Computing Machinery and Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alan M. Turing",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Posed 'can machines think', proposed the imitation game; the field's founding question.",
+      "venue": "Mind"
+    },
+    "id": "paper-0004",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1950
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Coined 'artificial intelligence' and framed the research programme.",
+      "venue": "Proposal (Dartmouth)"
+    },
+    "id": "paper-0005",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1955
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Frank Rosenblatt",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "First trainable neural classifier; launched learning machines and their first hype cycle.",
+      "venue": "Psychological Review"
+    },
+    "id": "paper-0006",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1958
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Some Studies in Machine Learning Using the Game of Checkers",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Arthur L. Samuel",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Coined 'machine learning'; first self-improving game program.",
+      "venue": "IBM Journal"
+    },
+    "id": "paper-0007",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1959
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Programs with Common Sense",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John McCarthy",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "The Advice Taker; founding statement of logic-based AI and knowledge representation.",
+      "venue": "Mechanisation of Thought Processes"
+    },
+    "id": "paper-0008",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1959
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Man-Computer Symbiosis",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "J. C. R. Licklider",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "The augmentation-versus-automation agenda that still structures AI debates.",
+      "venue": "IRE Transactions on Human Factors"
+    },
+    "id": "paper-0009",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1960
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Steps Toward Artificial Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Marvin Minsky",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Early synthesis of search, learning, and planning as the components of AI.",
+      "venue": "Proceedings of the IRE"
+    },
+    "id": "paper-0010",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1961
+  },
+  {
+    "canonical": true,
+    "canonical_title": "GPS: A Program That Simulates Human Thought",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Allen Newell, Herbert A. Simon",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "General Problem Solver; means-ends analysis and the symbolic cognition paradigm.",
+      "venue": "Lernende Automaten / RAND"
+    },
+    "id": "paper-0011",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1961
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Fuzzy Sets",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Lotfi A. Zadeh",
+      "category": "Foundations",
+      "confidence": "Medium",
+      "significance": "Founded fuzzy logic; a major non-probabilistic approach to reasoning under vagueness.",
+      "venue": "Information and Control"
+    },
+    "id": "paper-0012",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1965
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ELIZA: A Computer Program for the Study of Natural Language Communication",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Joseph Weizenbaum",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "First chatbot; revealed the human tendency to project understanding onto machines.",
+      "venue": "Communications of the ACM"
+    },
+    "id": "paper-0013",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1966
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Some Philosophical Problems from the Standpoint of Artificial Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John McCarthy, Patrick J. Hayes",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Introduced the frame problem and situation calculus.",
+      "venue": "Machine Intelligence 4"
+    },
+    "id": "paper-0014",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1969
+  },
+  {
+    "canonical": true,
+    "canonical_title": "STRIPS: A New Approach to the Application of Theorem Proving to Problem Solving",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Richard E. Fikes, Nils J. Nilsson",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "The planning formalism that dominated automated planning for decades.",
+      "venue": "Artificial Intelligence"
+    },
+    "id": "paper-0015",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1971
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Adaptation in Natural and Artificial Systems (foundational monograph)",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John H. Holland",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Genetic algorithms; evolution as a computational search paradigm.",
+      "venue": "University of Michigan Press"
+    },
+    "id": "paper-0016",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1975
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Maximum Likelihood from Incomplete Data via the EM Algorithm",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Arthur Dempster, Nan Laird, Donald Rubin",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "The EM algorithm; workhorse of latent-variable estimation.",
+      "venue": "Journal of the Royal Statistical Society B"
+    },
+    "id": "paper-0017",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1977
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Minds, Brains, and Programs",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John R. Searle",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "The Chinese Room argument; the canonical philosophical attack on strong AI.",
+      "venue": "Behavioral and Brain Sciences"
+    },
+    "id": "paper-0018",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1980
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Neocognitron: A Self-Organizing Neural Network Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Kunihiko Fukushima",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "The architectural ancestor of convolutional networks.",
+      "venue": "Biological Cybernetics"
+    },
+    "id": "paper-0019",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1980
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Neural Networks and Physical Systems with Emergent Collective Computational Abilities",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John J. Hopfield",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Hopfield networks; energy-based associative memory that revived the field (2024 Nobel).",
+      "venue": "PNAS"
+    },
+    "id": "paper-0020",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1982
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Self-Organized Formation of Topologically Correct Feature Maps",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Teuvo Kohonen",
+      "category": "Neural Networks (Classic)",
+      "confidence": "Medium",
+      "significance": "Self-organizing maps; unsupervised topology-preserving learning.",
+      "venue": "Biological Cybernetics"
+    },
+    "id": "paper-0021",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1982
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Learning Algorithm for Boltzmann Machines",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David H. Ackley, Geoffrey E. Hinton, Terrence J. Sejnowski",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Stochastic networks and unsupervised learning of internal representations.",
+      "venue": "Cognitive Science"
+    },
+    "id": "paper-0022",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1985
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Robust Layered Control System for a Mobile Robot",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Rodney A. Brooks",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Subsumption architecture; behaviour-based robotics against the symbolic mainstream.",
+      "venue": "IEEE Journal of Robotics and Automation"
+    },
+    "id": "paper-0023",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1986
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Learning Representations by Back-Propagating Errors",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Made backpropagation the standard training algorithm; the engine of all deep learning.",
+      "venue": "Nature"
+    },
+    "id": "paper-0024",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1986
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Fusion, Propagation, and Structuring in Belief Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Judea Pearl",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "Bayesian networks; principled probabilistic reasoning in AI (Turing Award work).",
+      "venue": "Artificial Intelligence"
+    },
+    "id": "paper-0025",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1986
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Learning to Predict by the Methods of Temporal Differences",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Richard S. Sutton",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "TD learning; the core idea of modern RL.",
+      "venue": "Machine Learning"
+    },
+    "id": "paper-0026",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1988
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Multilayer Feedforward Networks Are Universal Approximators",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Kurt Hornik, Maxwell Stinchcombe, Halbert White",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Proved neural nets can approximate any function; the theoretical licence for the field.",
+      "venue": "Neural Networks"
+    },
+    "id": "paper-0027",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1989
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Lawrence R. Rabiner",
+      "category": "Statistical Learning",
+      "confidence": "Medium",
+      "significance": "Made HMMs the standard sequential model for two decades of speech and NLP.",
+      "venue": "Proceedings of the IEEE"
+    },
+    "id": "paper-0028",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1989
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Symbol Grounding Problem",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Stevan Harnad",
+      "category": "Foundations",
+      "confidence": "Medium",
+      "significance": "Named the problem of how symbols acquire meaning; resurfaces in every LLM debate.",
+      "venue": "Physica D"
+    },
+    "id": "paper-0029",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1990
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Finding Structure in Time",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jeffrey L. Elman",
+      "category": "Neural Networks (Classic)",
+      "confidence": "Medium",
+      "significance": "Simple recurrent networks; sequence learning before LSTMs.",
+      "venue": "Cognitive Science"
+    },
+    "id": "paper-0030",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1990
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Intelligence Without Representation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Rodney A. Brooks",
+      "category": "Foundations",
+      "confidence": "High",
+      "significance": "Manifesto for embodied intelligence; the strongest internal critique of GOFAI.",
+      "venue": "Artificial Intelligence"
+    },
+    "id": "paper-0031",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1991
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Q-Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Christopher J. C. H. Watkins, Peter Dayan",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "Model-free value learning with convergence proof.",
+      "venue": "Machine Learning"
+    },
+    "id": "paper-0032",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1992
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ronald J. Williams",
+      "category": "Reinforcement Learning",
+      "confidence": "Medium",
+      "significance": "REINFORCE; the original policy-gradient method.",
+      "venue": "Machine Learning"
+    },
+    "id": "paper-0033",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1992
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Causal Diagrams for Empirical Research",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Judea Pearl",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "The do-calculus; the formal foundation of modern causal inference.",
+      "venue": "Biometrika"
+    },
+    "id": "paper-0034",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1995
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Support-Vector Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Corinna Cortes, Vladimir Vapnik",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "SVMs; the dominant classifier of the pre-deep-learning era.",
+      "venue": "Machine Learning"
+    },
+    "id": "paper-0035",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1995
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Temporal Difference Learning and TD-Gammon",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Gerald Tesauro",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "Self-play RL reaches expert backgammon; the proof of concept for everything later.",
+      "venue": "Communications of the ACM"
+    },
+    "id": "paper-0036",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1995
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Regression Shrinkage and Selection via the Lasso",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Robert Tibshirani",
+      "category": "Statistical Learning",
+      "confidence": "Medium",
+      "significance": "L1 regularization; sparse models across statistics and ML.",
+      "venue": "Journal of the Royal Statistical Society B"
+    },
+    "id": "paper-0037",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1996
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Long Short-Term Memory",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sepp Hochreiter, Juergen Schmidhuber",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Solved vanishing gradients for sequences; powered a decade of speech and language AI.",
+      "venue": "Neural Computation"
+    },
+    "id": "paper-0038",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1997
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yoav Freund, Robert E. Schapire",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "AdaBoost; proved weak learners can be combined into strong ones.",
+      "venue": "Journal of Computer and System Sciences"
+    },
+    "id": "paper-0039",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1997
+  },
+  {
+    "canonical": true,
+    "canonical_title": "No Free Lunch Theorems for Optimization",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David H. Wolpert, William G. Macready",
+      "category": "Statistical Learning",
+      "confidence": "Medium",
+      "significance": "No algorithm wins on all problems; a standing caution against universal claims.",
+      "venue": "IEEE Transactions on Evolutionary Computation"
+    },
+    "id": "paper-0040",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1997
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gradient-Based Learning Applied to Document Recognition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yann LeCun, Leon Bottou, Yoshua Bengio, Patrick Haffner",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "LeNet; the canonical demonstration that CNNs work on real tasks.",
+      "venue": "Proceedings of the IEEE"
+    },
+    "id": "paper-0041",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1998
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The PageRank Citation Ranking: Bringing Order to the Web",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Lawrence Page, Sergey Brin, Rajeev Motwani, Terry Winograd",
+      "category": "Statistical Learning",
+      "confidence": "Medium",
+      "significance": "Link-based ranking; the algorithm that organized the web's information.",
+      "venue": "Stanford Technical Report"
+    },
+    "id": "paper-0042",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 1998
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Random Forests",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Leo Breiman",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "The most-used classical ML algorithm in applied practice.",
+      "venue": "Machine Learning"
+    },
+    "id": "paper-0043",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2001
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Statistical Modeling: The Two Cultures",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Leo Breiman",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "Named the split between data modeling and algorithmic prediction; prophetic for ML's rise.",
+      "venue": "Statistical Science"
+    },
+    "id": "paper-0044",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2001
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Greedy Function Approximation: A Gradient Boosting Machine",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jerome H. Friedman",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "Gradient boosting; the backbone of tabular ML to this day.",
+      "venue": "Annals of Statistics"
+    },
+    "id": "paper-0045",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2001
+  },
+  {
+    "canonical": true,
+    "canonical_title": "BLEU: A Method for Automatic Evaluation of Machine Translation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Kishore Papineni et al.",
+      "category": "NLP & Language Models",
+      "confidence": "Medium",
+      "significance": "The metric that made MT progress measurable, virtues and pathologies included.",
+      "venue": "ACL"
+    },
+    "id": "paper-0046",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2002
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Latent Dirichlet Allocation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David M. Blei, Andrew Y. Ng, Michael I. Jordan",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "Topic models; a decade of probabilistic text analysis.",
+      "venue": "Journal of Machine Learning Research"
+    },
+    "id": "paper-0047",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2003
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Neural Probabilistic Language Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yoshua Bengio, Rejean Ducharme, Pascal Vincent, Christian Jauvin",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "Word embeddings plus neural language modeling; the LLM lineage starts here.",
+      "venue": "Journal of Machine Learning Research"
+    },
+    "id": "paper-0048",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2003
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Fast Learning Algorithm for Deep Belief Nets",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Geoffrey E. Hinton, Simon Osindero, Yee-Whye Teh",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Layer-wise pretraining; the paper that relaunched 'deep' learning.",
+      "venue": "Neural Computation"
+    },
+    "id": "paper-0049",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2006
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Reducing the Dimensionality of Data with Neural Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Geoffrey E. Hinton, Ruslan Salakhutdinov",
+      "category": "Neural Networks (Classic)",
+      "confidence": "High",
+      "significance": "Deep autoencoders in Science; put deep learning back on the mainstream agenda.",
+      "venue": "Science"
+    },
+    "id": "paper-0050",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2006
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Universal Intelligence: A Definition of Machine Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Shane Legg, Marcus Hutter",
+      "category": "Meta & Field Essays",
+      "confidence": "Medium",
+      "significance": "The formal definition behind much AGI discourse.",
+      "venue": "Minds and Machines"
+    },
+    "id": "paper-0051",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2007
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Basic AI Drives",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Stephen M. Omohundro",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Instrumental convergence; why capable agents acquire resources and resist shutdown.",
+      "venue": "AGI Conference"
+    },
+    "id": "paper-0052",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2008
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Matrix Factorization Techniques for Recommender Systems",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yehuda Koren, Robert Bell, Chris Volinsky",
+      "category": "Statistical Learning",
+      "confidence": "Medium",
+      "significance": "The Netflix-Prize-era standard for collaborative filtering.",
+      "venue": "IEEE Computer"
+    },
+    "id": "paper-0053",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2009
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ImageNet: A Large-Scale Hierarchical Image Database",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Fei-Fei Li",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "The dataset that made the deep learning revolution measurable.",
+      "venue": "CVPR"
+    },
+    "id": "paper-0054",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2009
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Unreasonable Effectiveness of Data",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alon Halevy, Peter Norvig, Fernando Pereira",
+      "category": "Meta & Field Essays",
+      "confidence": "High",
+      "significance": "Data beats cleverness; the empirical creed of the scaling era, stated early.",
+      "venue": "IEEE Intelligent Systems"
+    },
+    "id": "paper-0055",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2009
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "AlexNet; the result that started the modern deep learning era.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0056",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2012
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Deep Neural Networks for Acoustic Modeling in Speech Recognition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Geoffrey Hinton et al. (four research groups)",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "Deep nets replace decades of speech-recognition engineering.",
+      "venue": "IEEE Signal Processing Magazine"
+    },
+    "id": "paper-0057",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2012
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Fairness Through Awareness",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Cynthia Dwork et al.",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "The formal-fairness research programme begins.",
+      "venue": "ITCS"
+    },
+    "id": "paper-0058",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2012
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Few Useful Things to Know About Machine Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Pedro Domingos",
+      "category": "Meta & Field Essays",
+      "confidence": "High",
+      "significance": "The most-shared practical wisdom paper in ML.",
+      "venue": "Communications of the ACM"
+    },
+    "id": "paper-0059",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2012
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Efficient Estimation of Word Representations in Vector Space",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tomas Mikolov et al.",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "word2vec; cheap, composable word meaning ('king - man + woman').",
+      "venue": "ICLR Workshop"
+    },
+    "id": "paper-0060",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2013
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "The defining regularization trick of the era.",
+      "venue": "Journal of Machine Learning Research"
+    },
+    "id": "paper-0061",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2014
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Generative Adversarial Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ian Goodfellow et al.",
+      "category": "Generative Models",
+      "confidence": "High",
+      "significance": "GANs; adversarial training created the modern generative-media era.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0062",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2014
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Auto-Encoding Variational Bayes",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Diederik P. Kingma, Max Welling",
+      "category": "Generative Models",
+      "confidence": "High",
+      "significance": "VAEs; probabilistic deep generative modeling.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0063",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2014
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Intriguing Properties of Neural Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Christian Szegedy et al.",
+      "category": "Security & Privacy",
+      "confidence": "High",
+      "significance": "Discovered adversarial examples; founded ML security.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0064",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2014
+  },
+  {
+    "canonical": true,
+    "canonical_title": "GloVe: Global Vectors for Word Representation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jeffrey Pennington, Richard Socher, Christopher D. Manning",
+      "category": "NLP & Language Models",
+      "confidence": "Medium",
+      "significance": "The other standard embedding; count-based meets predictive.",
+      "venue": "EMNLP"
+    },
+    "id": "paper-0065",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2014
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Sequence to Sequence Learning with Neural Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ilya Sutskever, Oriol Vinyals, Quoc V. Le",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "Encoder-decoder; end-to-end sequence transduction.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0066",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2014
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Karen Simonyan, Andrew Zisserman",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "VGG; depth as the design principle.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0067",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Going Deeper with Convolutions",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Christian Szegedy et al.",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "GoogLeNet/Inception; efficient depth via multi-scale modules.",
+      "venue": "CVPR"
+    },
+    "id": "paper-0068",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Batch Normalization: Accelerating Deep Network Training",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sergey Ioffe, Christian Szegedy",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "Made very deep networks trainable in practice.",
+      "venue": "ICML"
+    },
+    "id": "paper-0069",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Adam: A Method for Stochastic Optimization",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Diederik P. Kingma, Jimmy Ba",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "The default optimizer of deep learning; among the most-cited papers in CS.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0070",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Deep Learning (review)",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yann LeCun, Yoshua Bengio, Geoffrey Hinton",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "The field's self-definition by its three Turing-Award founders.",
+      "venue": "Nature"
+    },
+    "id": "paper-0071",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Olaf Ronneberger, Philipp Fischer, Thomas Brox",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "The default segmentation architecture, far beyond medicine.",
+      "venue": "MICCAI"
+    },
+    "id": "paper-0072",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Distilling the Knowledge in a Neural Network",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Geoffrey Hinton, Oriol Vinyals, Jeff Dean",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "Knowledge distillation; the basis of model compression.",
+      "venue": "NeurIPS Workshop"
+    },
+    "id": "paper-0073",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Explaining and Harnessing Adversarial Examples",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ian Goodfellow, Jonathon Shlens, Christian Szegedy",
+      "category": "Security & Privacy",
+      "confidence": "Medium",
+      "significance": "FGSM; explained and weaponized adversarial fragility.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0074",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "Introduced attention; the mechanism that became everything.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0075",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Human-Level Control Through Deep Reinforcement Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Volodymyr Mnih et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "DQN on Atari; deep RL is born.",
+      "venue": "Nature"
+    },
+    "id": "paper-0076",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Hidden Technical Debt in Machine Learning Systems",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "D. Sculley et al.",
+      "category": "Meta & Field Essays",
+      "confidence": "High",
+      "significance": "Why ML systems rot in production; founding text of MLOps.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0077",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2015
+  },
+  {
+    "canonical": true,
+    "canonical_title": "XGBoost: A Scalable Tree Boosting System",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tianqi Chen, Carlos Guestrin",
+      "category": "Statistical Learning",
+      "confidence": "High",
+      "significance": "The implementation that made gradient boosting ubiquitous in practice.",
+      "venue": "KDD"
+    },
+    "id": "paper-0078",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Deep Residual Learning for Image Recognition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "ResNet; skip connections enabled networks of arbitrary depth.",
+      "venue": "CVPR"
+    },
+    "id": "paper-0079",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Joseph Redmon et al.",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "YOLO; real-time detection as a single network pass.",
+      "venue": "CVPR"
+    },
+    "id": "paper-0080",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "WaveNet: A Generative Model for Raw Audio",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Aaron van den Oord et al.",
+      "category": "Generative Models",
+      "confidence": "Medium",
+      "significance": "Neural audio generation; transformed speech synthesis.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0081",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David Silver et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "AlphaGo; the cultural turning point of the deep learning era.",
+      "venue": "Nature"
+    },
+    "id": "paper-0082",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "End-to-End Training of Deep Visuomotor Policies",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sergey Levine et al.",
+      "category": "Robotics",
+      "confidence": "Medium",
+      "significance": "Pixels-to-torques; deep learning enters robotic control.",
+      "venue": "Journal of Machine Learning Research"
+    },
+    "id": "paper-0083",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Concrete Problems in AI Safety",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Dario Amodei et al.",
+      "category": "Safety & Alignment",
+      "confidence": "High",
+      "significance": "Turned AI safety into a concrete ML research agenda.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0084",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Why Should I Trust You? Explaining the Predictions of Any Classifier",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin",
+      "category": "Interpretability",
+      "confidence": "High",
+      "significance": "LIME; model-agnostic local explanation.",
+      "venue": "KDD"
+    },
+    "id": "paper-0085",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Big Data's Disparate Impact",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Solon Barocas, Andrew D. Selbst",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "The canonical legal analysis of algorithmic discrimination.",
+      "venue": "California Law Review"
+    },
+    "id": "paper-0086",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Machine Bias",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Julia Angwin, Jeff Larson, Surya Mattu, Lauren Kirchner (ProPublica)",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "The COMPAS investigation; algorithmic injustice becomes front-page news.",
+      "venue": "ProPublica"
+    },
+    "id": "paper-0087",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tolga Bolukbasi et al.",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Demonstrated social bias embedded in learned representations.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0088",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Equality of Opportunity in Supervised Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Moritz Hardt, Eric Price, Nathan Srebro",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Defined equalized odds; a standard fairness criterion.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0089",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Ethics of Algorithms: Mapping the Debate",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Brent Mittelstadt et al.",
+      "category": "Ethics & Fairness",
+      "confidence": "Medium",
+      "significance": "The standard map of algorithmic-ethics concerns.",
+      "venue": "Big Data & Society"
+    },
+    "id": "paper-0090",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Deep Learning with Differential Privacy",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Martin Abadi et al.",
+      "category": "Security & Privacy",
+      "confidence": "Medium",
+      "significance": "DP-SGD; private training as a practical method.",
+      "venue": "CCS"
+    },
+    "id": "paper-0091",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2016
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Semi-Supervised Classification with Graph Convolutional Networks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Thomas N. Kipf, Max Welling",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "GCNs; the breakthrough that mainstreamed graph deep learning.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0092",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Attention Is All You Need",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ashish Vaswani et al.",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "The Transformer; the architecture of the modern AI era.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0093",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Mastering the Game of Go Without Human Knowledge",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David Silver et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "AlphaGo Zero; superhuman play from self-play alone.",
+      "venue": "Nature"
+    },
+    "id": "paper-0094",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Proximal Policy Optimization Algorithms",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John Schulman et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "PPO; the workhorse algorithm, later the engine of RLHF.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0095",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Deep Reinforcement Learning from Human Preferences",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Paul F. Christiano et al.",
+      "category": "Safety & Alignment",
+      "confidence": "High",
+      "significance": "Learning reward from human comparisons; the seed of RLHF.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0096",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A Unified Approach to Interpreting Model Predictions",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Scott M. Lundberg, Su-In Lee",
+      "category": "Interpretability",
+      "confidence": "High",
+      "significance": "SHAP; game-theoretic attribution, the industry default.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0097",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Inherent Trade-Offs in the Fair Determination of Risk Scores",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jon Kleinberg, Sendhil Mullainathan, Manish Raghavan",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Proved popular fairness definitions are mutually incompatible.",
+      "venue": "ITCS"
+    },
+    "id": "paper-0098",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Semantics Derived Automatically from Language Corpora Contain Human-Like Biases",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Aylin Caliskan, Joanna J. Bryson, Arvind Narayanan",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Bias in embeddings, demonstrated with psychometric rigor.",
+      "venue": "Science"
+    },
+    "id": "paper-0099",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Membership Inference Attacks Against Machine Learning Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Reza Shokri et al.",
+      "category": "Security & Privacy",
+      "confidence": "Medium",
+      "significance": "Showed models leak whether your data was in the training set.",
+      "venue": "IEEE S&P"
+    },
+    "id": "paper-0100",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Brendan McMahan et al.",
+      "category": "Security & Privacy",
+      "confidence": "High",
+      "significance": "Federated learning; training without centralizing data.",
+      "venue": "AISTATS"
+    },
+    "id": "paper-0101",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2017
+  },
+  {
+    "canonical": true,
+    "canonical_title": "World Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David Ha, Juergen Schmidhuber",
+      "category": "Generative Models",
+      "confidence": "Medium",
+      "significance": "Agents learning inside their own learned simulators; ancestor of today's world-model agenda.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0102",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Improving Language Understanding by Generative Pre-Training",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "GPT-1; generative pretraining as the recipe.",
+      "venue": "OpenAI Technical Report"
+    },
+    "id": "paper-0103",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "A General Reinforcement Learning Algorithm That Masters Chess, Shogi, and Go Through Self-Play",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "David Silver et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "High",
+      "significance": "AlphaZero; one algorithm, three games.",
+      "venue": "Science"
+    },
+    "id": "paper-0104",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Mythos of Model Interpretability",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Zachary C. Lipton",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Disciplined the field's vocabulary about what 'interpretable' means.",
+      "venue": "ACM Queue / CACM"
+    },
+    "id": "paper-0105",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Joy Buolamwini, Timnit Gebru",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Audit that changed commercial face-analysis products and founded audit culture.",
+      "venue": "FAT*"
+    },
+    "id": "paper-0106",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Counterfactual Explanations Without Opening the Black Box",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sandra Wachter, Brent Mittelstadt, Chris Russell",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "Linked explanation methods to GDPR; the legal-technical bridge.",
+      "venue": "Harvard Journal of Law & Technology"
+    },
+    "id": "paper-0107",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Miles Brundage et al.",
+      "category": "Governance & Policy",
+      "confidence": "High",
+      "significance": "The first broad misuse-threat assessment across digital, physical, political security.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0108",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2018
+  },
+  {
+    "canonical": true,
+    "canonical_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "Pretrain-finetune became the default NLP paradigm.",
+      "venue": "NAACL"
+    },
+    "id": "paper-0109",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Language Models are Unsupervised Multitask Learners",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alec Radford et al.",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "GPT-2; scale yields zero-shot task behaviour, and the first staged-release debate.",
+      "venue": "OpenAI Technical Report"
+    },
+    "id": "paper-0110",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Grandmaster Level in StarCraft II Using Multi-Agent Reinforcement Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Oriol Vinyals et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "Medium",
+      "significance": "AlphaStar; RL in a real-time, partially observed strategy game.",
+      "venue": "Nature"
+    },
+    "id": "paper-0111",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Evan Hubinger et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Mesa-optimization and deceptive alignment; core inner-alignment concepts.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0112",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Cynthia Rudin",
+      "category": "Interpretability",
+      "confidence": "High",
+      "significance": "Argues for inherently interpretable models where stakes are high.",
+      "venue": "Nature Machine Intelligence"
+    },
+    "id": "paper-0113",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Model Cards for Model Reporting",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Margaret Mitchell et al.",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "The documentation standard for released models.",
+      "venue": "FAT*"
+    },
+    "id": "paper-0114",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ziad Obermeyer et al.",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Showed a deployed health algorithm systematically disadvantaged Black patients.",
+      "venue": "Science"
+    },
+    "id": "paper-0115",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Energy and Policy Considerations for Deep Learning in NLP",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Emma Strubell, Ananya Ganesh, Andrew McCallum",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Put training cost and carbon on the research agenda.",
+      "venue": "ACL"
+    },
+    "id": "paper-0116",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Global Landscape of AI Ethics Guidelines",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Anna Jobin, Marcello Ienca, Effy Vayena",
+      "category": "Governance & Policy",
+      "confidence": "High",
+      "significance": "Mapped 84 guidelines; showed convergence on principles and divergence on practice.",
+      "venue": "Nature Machine Intelligence"
+    },
+    "id": "paper-0117",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Bitter Lesson",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Richard Sutton",
+      "category": "Meta & Field Essays",
+      "confidence": "High",
+      "significance": "Compute-leveraging general methods beat human-knowledge engineering; the era's most-quoted essay.",
+      "venue": "Essay (incompleteideas.net)"
+    },
+    "id": "paper-0118",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "On the Measure of Intelligence",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Francois Chollet",
+      "category": "Meta & Field Essays",
+      "confidence": "Medium",
+      "significance": "Skill-acquisition efficiency as the definition of intelligence; basis of the ARC benchmark.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0119",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2019
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Denoising Diffusion Probabilistic Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jonathan Ho, Ajay Jain, Pieter Abbeel",
+      "category": "Generative Models",
+      "confidence": "High",
+      "significance": "Made diffusion the dominant image-generation paradigm.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0120",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Neural Radiance Fields (NeRF): Representing Scenes for View Synthesis",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Ben Mildenhall et al.",
+      "category": "Generative Models",
+      "confidence": "Medium",
+      "significance": "Learned 3D scene representation; new field of neural rendering.",
+      "venue": "ECCV"
+    },
+    "id": "paper-0121",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Colin Raffel et al.",
+      "category": "NLP & Language Models",
+      "confidence": "Medium",
+      "significance": "T5; everything is text-to-text.",
+      "venue": "Journal of Machine Learning Research"
+    },
+    "id": "paper-0122",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Language Models are Few-Shot Learners",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tom B. Brown et al.",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "GPT-3; in-context learning and the scaling thesis made undeniable.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0123",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Scaling Laws for Neural Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jared Kaplan et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "High",
+      "significance": "Loss as a power law of compute, data, parameters; the industry's planning document.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0124",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Patrick Lewis et al.",
+      "category": "NLP & Language Models",
+      "confidence": "High",
+      "significance": "RAG; grounding generation in retrieved evidence.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0125",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Julian Schrittwieser et al.",
+      "category": "Reinforcement Learning",
+      "confidence": "Medium",
+      "significance": "MuZero; planning without knowing the rules.",
+      "venue": "Nature"
+    },
+    "id": "paper-0126",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Zoom In: An Introduction to Circuits",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Chris Olah et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Founded mechanistic interpretability: studying networks like organisms.",
+      "venue": "Distill"
+    },
+    "id": "paper-0127",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Inioluwa Deborah Raji et al.",
+      "category": "Governance & Policy",
+      "confidence": "High",
+      "significance": "The reference framework for internal AI audit practice.",
+      "venue": "FAT*"
+    },
+    "id": "paper-0128",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2020
+  },
+  {
+    "canonical": true,
+    "canonical_title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alexey Dosovitskiy et al.",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "ViT; transformers displace convolutions in vision.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0129",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alec Radford et al.",
+      "category": "Deep Learning Era",
+      "confidence": "High",
+      "significance": "CLIP; vision-language alignment underpinning multimodal AI.",
+      "venue": "ICML"
+    },
+    "id": "paper-0130",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Evaluating Large Language Models Trained on Code",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Mark Chen et al.",
+      "category": "LLM Methods",
+      "confidence": "Medium",
+      "significance": "Codex; LLMs write code, the capability that transformed software work.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0131",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Unsolved Problems in ML Safety",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Dan Hendrycks et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "The mainstream-ML framing of robustness, monitoring, alignment, systemic safety.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0132",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Datasheets for Datasets",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Timnit Gebru et al.",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "Provenance documentation for training data.",
+      "venue": "Communications of the ACM"
+    },
+    "id": "paper-0133",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell",
+      "category": "Ethics & Fairness",
+      "confidence": "High",
+      "significance": "The defining critique of the LLM paradigm, and the paper behind Google's Gebru affair.",
+      "venue": "FAccT"
+    },
+    "id": "paper-0134",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Extracting Training Data from Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Nicholas Carlini et al.",
+      "category": "Security & Privacy",
+      "confidence": "Medium",
+      "significance": "LLMs memorize and can regurgitate training data.",
+      "venue": "USENIX Security"
+    },
+    "id": "paper-0135",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Highly Accurate Protein Structure Prediction with AlphaFold",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "John Jumper et al.",
+      "category": "AI for Science",
+      "confidence": "High",
+      "significance": "Solved a fifty-year grand challenge; the Nobel-recognized proof of AI for science.",
+      "venue": "Nature"
+    },
+    "id": "paper-0136",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "The Hardware Lottery",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sara Hooker",
+      "category": "Meta & Field Essays",
+      "confidence": "Medium",
+      "significance": "Research directions win because hardware favors them; a structural critique of progress.",
+      "venue": "Communications of the ACM"
+    },
+    "id": "paper-0137",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2021
+  },
+  {
+    "canonical": true,
+    "canonical_title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Robin Rombach et al.",
+      "category": "Generative Models",
+      "confidence": "High",
+      "significance": "Stable Diffusion; open-weights image generation at consumer scale.",
+      "venue": "CVPR"
+    },
+    "id": "paper-0138",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Training Compute-Optimal Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jordan Hoffmann et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "High",
+      "significance": "Chinchilla; rebalanced the field toward data-optimal training.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0139",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Edward J. Hu et al.",
+      "category": "LLM Methods",
+      "confidence": "High",
+      "significance": "Made finetuning large models affordable; standard adaptation method.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0140",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "William Fedus, Barret Zoph, Noam Shazeer",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Mixture-of-experts at scale; the sparse path to frontier capability.",
+      "venue": "Journal of Machine Learning Research"
+    },
+    "id": "paper-0141",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jason Wei et al.",
+      "category": "LLM Methods",
+      "confidence": "High",
+      "significance": "Stepwise prompting unlocks latent reasoning; opened the reasoning-model agenda.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0142",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Emergent Abilities of Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Jason Wei et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "Medium",
+      "significance": "Named (and contested) the phenomenon of capability jumps with scale.",
+      "venue": "TMLR"
+    },
+    "id": "paper-0143",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Training Language Models to Follow Instructions with Human Feedback",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Long Ouyang et al.",
+      "category": "Safety & Alignment",
+      "confidence": "High",
+      "significance": "InstructGPT; RLHF at scale, the technique behind aligned chat models.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0144",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Constitutional AI: Harmlessness from AI Feedback",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yuntao Bai et al.",
+      "category": "Safety & Alignment",
+      "confidence": "High",
+      "significance": "Alignment via explicit principles and AI feedback; reduced dependence on human labeling.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0145",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Toy Models of Superposition",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Nelson Elhage et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Why features share neurons; the core obstacle to reading networks.",
+      "venue": "Anthropic / Transformer Circuits"
+    },
+    "id": "paper-0146",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Discovering Faster Matrix Multiplication Algorithms with Reinforcement Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alhussein Fawzi et al.",
+      "category": "AI for Science",
+      "confidence": "Medium",
+      "significance": "AlphaTensor; AI finds new mathematics.",
+      "venue": "Nature"
+    },
+    "id": "paper-0147",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2022
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Segment Anything",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Alexander Kirillov et al.",
+      "category": "Deep Learning Era",
+      "confidence": "Medium",
+      "significance": "Promptable foundation model for segmentation.",
+      "venue": "ICCV"
+    },
+    "id": "paper-0148",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Shunyu Yao et al.",
+      "category": "LLM Methods",
+      "confidence": "Medium",
+      "significance": "Reason-act loops; the template for LLM agents.",
+      "venue": "ICLR"
+    },
+    "id": "paper-0149",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Timo Schick et al.",
+      "category": "LLM Methods",
+      "confidence": "Medium",
+      "significance": "Self-supervised tool use; agents calling APIs.",
+      "venue": "NeurIPS"
+    },
+    "id": "paper-0150",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "LLaMA: Open and Efficient Foundation Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Hugo Touvron et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "High",
+      "significance": "The open-weights line that created today's open-model ecosystem.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0151",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "GPT-4 Technical Report",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "OpenAI",
+      "category": "Scaling & Frontier",
+      "confidence": "High",
+      "significance": "The frontier capability report; also the moment training details went dark.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0152",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Sparks of Artificial General Intelligence: Early Experiments with GPT-4",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Sebastien Bubeck et al.",
+      "category": "Scaling & Frontier",
+      "confidence": "High",
+      "significance": "The most-debated capability claim of the era; framed the AGI-proximity argument.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0153",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Albert Gu, Tri Dao",
+      "category": "LLM Methods",
+      "confidence": "Medium",
+      "significance": "The leading post-Transformer architecture candidate.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0154",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Andy Zou et al.",
+      "category": "Security & Privacy",
+      "confidence": "Medium",
+      "significance": "Automated jailbreaks; alignment as an attack surface.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0155",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Towards Monosemanticity: Decomposing Language Models with Dictionary Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Trenton Bricken et al.",
+      "category": "Interpretability",
+      "confidence": "Medium",
+      "significance": "Sparse autoencoders extract human-legible features from LLMs.",
+      "venue": "Anthropic / Transformer Circuits"
+    },
+    "id": "paper-0156",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Frontier AI Regulation: Managing Emerging Risks to Public Safety",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Markus Anderljung et al.",
+      "category": "Governance & Policy",
+      "confidence": "Medium",
+      "significance": "The reference proposal for frontier-model regulatory architecture.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0157",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Tyna Eloundou, Sam Manning, Pamela Mishkin, Daniel Rock",
+      "category": "Economics of AI",
+      "confidence": "Medium",
+      "significance": "First systematic occupational-exposure estimates for LLMs.",
+      "venue": "arXiv (later Science)"
+    },
+    "id": "paper-0158",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2023
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Evan Hubinger et al.",
+      "category": "Safety & Alignment",
+      "confidence": "Medium",
+      "significance": "Empirical evidence that deceptive behaviour can survive standard safety training.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0159",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Managing Extreme AI Risks Amid Rapid Progress",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Yoshua Bengio et al.",
+      "category": "Safety & Alignment",
+      "confidence": "High",
+      "significance": "Consensus statement by senior researchers on frontier-risk preparedness.",
+      "venue": "Science"
+    },
+    "id": "paper-0160",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "Accurate Structure Prediction of Biomolecular Interactions with AlphaFold 3",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "Josh Abramson et al.",
+      "category": "AI for Science",
+      "confidence": "Medium",
+      "significance": "Extended structure prediction to complexes and drug-relevant interactions.",
+      "venue": "Nature"
+    },
+    "id": "paper-0161",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2024
+  },
+  {
+    "canonical": true,
+    "canonical_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "conflict_flag": false,
+    "editorial": {
+      "authors": "DeepSeek-AI",
+      "category": "Scaling & Frontier",
+      "confidence": "High",
+      "significance": "Open reasoning model from China that reset assumptions about cost and access.",
+      "venue": "arXiv"
+    },
+    "id": "paper-0162",
+    "language": "en",
+    "level": null,
+    "original_title": null,
+    "work_type": "paper",
+    "year": 2025
+  }
+]

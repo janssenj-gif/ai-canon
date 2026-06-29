@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Regression Shrinkage and Selection via the Lasso",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.116613,
+        "metric": "citation_count",
+        "normalized": 0.233226,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 51812.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.006398,
+        "metric": "sustained_readership",
+        "normalized": 0.127968,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12028.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 7,
+    "scenario": "academic",
+    "score": -0.101989,
+    "work_id": "paper-0037",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Regression Shrinkage and Selection via the Lasso",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.046645,
+        "metric": "citation_count",
+        "normalized": 0.233226,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 51812.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.051187,
+        "metric": "sustained_readership",
+        "normalized": 0.127968,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12028.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 7,
+    "scenario": "broad_influence",
+    "score": -0.102168,
+    "work_id": "paper-0037",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Regression Shrinkage and Selection via the Lasso",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.058306,
+        "metric": "citation_count",
+        "normalized": 0.233226,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 51812.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.012797,
+        "metric": "sustained_readership",
+        "normalized": 0.127968,
+        "provenance_url": "https://openalex.org/W2135046866",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 12028.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 7,
+    "scenario": "governance_practitioner",
+    "score": -0.253897,
+    "work_id": "paper-0037",
+    "work_type": "paper"
+  }
+}

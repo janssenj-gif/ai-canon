@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "A Few Useful Things to Know About Machine Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.007315,
+        "metric": "citation_count",
+        "normalized": 0.014629,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3250.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.000487,
+        "metric": "sustained_readership",
+        "normalized": 0.009735,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 915.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 49,
+    "scenario": "academic",
+    "score": -0.217198,
+    "work_id": "paper-0059",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "A Few Useful Things to Know About Machine Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002926,
+        "metric": "citation_count",
+        "normalized": 0.014629,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3250.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.003894,
+        "metric": "sustained_readership",
+        "normalized": 0.009735,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 915.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 46,
+    "scenario": "broad_influence",
+    "score": -0.19318,
+    "work_id": "paper-0059",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "A Few Useful Things to Know About Machine Learning",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003657,
+        "metric": "citation_count",
+        "normalized": 0.014629,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3250.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.000973,
+        "metric": "sustained_readership",
+        "normalized": 0.009735,
+        "provenance_url": "https://openalex.org/W2161336914",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 915.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 48,
+    "scenario": "governance_practitioner",
+    "score": -0.32037,
+    "work_id": "paper-0059",
+    "work_type": "paper"
+  }
+}

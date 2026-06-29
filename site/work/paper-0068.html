@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Going Deeper with Convolutions — The AI Canon</title>
+<meta name="description" content="The AI Canon — a free, method-backed reference library for AI knowledge.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0E2A4A;--navy-soft:#3B5268;--cream:#F4EEE2;--panel:#FBF8F1;
+--orange:#E87722;--hairline:#D9CFBE;--mono-bg:#0E2A4A;--mono-ink:#EDE6D6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--cream);color:var(--navy);font-family:"DM Sans",system-ui,sans-serif;
+font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.measure{max-width:980px;margin:0 auto;padding:0 24px}
+a{color:var(--navy);text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+a:hover{color:var(--orange)}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+nav.top{background:var(--navy);color:var(--mono-ink);font-family:"DM Mono",monospace;font-size:13px}
+nav.top .measure{display:flex;flex-wrap:wrap;gap:6px 22px;padding:12px 24px}
+nav.top a{color:var(--mono-ink);text-decoration:none}
+nav.top a:hover,nav.top a[aria-current=page]{color:#fff;border-bottom:2px solid var(--orange)}
+header.h{padding:46px 0 22px;border-bottom:1px solid var(--hairline)}
+.kicker{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy-soft)}
+h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(32px,5vw,52px);line-height:1.05;margin:10px 0}
+h2{font-family:"DM Serif Display",serif;font-weight:400;font-size:26px;margin:34px 0 12px}
+h3{font-family:"DM Mono",monospace;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--navy-soft);margin:22px 0 8px}
+p{margin:10px 0}main{padding:24px 0 60px}
+.note{background:var(--panel);border:1px solid var(--hairline);border-left:5px solid var(--orange);padding:14px 18px;margin:18px 0;font-size:14.5px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+th{text-align:left;font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+color:var(--navy-soft);border-bottom:1px solid var(--navy);padding:8px 10px}
+td{padding:8px 10px;border-bottom:1px dashed var(--hairline);vertical-align:top}
+td.rank,td.num{font-family:"DM Mono",monospace;white-space:nowrap}
+.tag{font-family:"DM Mono",monospace;font-size:11px;padding:1px 7px;border:1px solid var(--hairline);border-radius:10px;color:var(--navy-soft)}
+.flag{color:var(--orange);font-weight:600}
+.scn{margin:30px 0;border:1px solid var(--hairline);background:var(--panel);padding:18px 20px}
+footer{background:var(--navy);color:#8FA3B8;font-family:"DM Mono",monospace;font-size:12px;padding:34px 0}
+footer a{color:var(--mono-ink)}
+.miss{color:var(--navy-soft)}
+.mono{font-family:"DM Mono",monospace;font-size:13px}
+</style></head><body>
+<nav class="top"><div class="measure"><a href="../index.html">Home</a><a href="../canon-50.html" aria-current="page">Canon 50</a><a href="../papers.html">Papers</a><a href="../method.html">Method</a><a href="../challenges.html">Challenges</a><a href="../changelog.html">Changelog</a><a href="../data.html">Data &amp; audit</a></div></nav>
+<header class="h"><div class="measure"><span class="kicker">Score breakdown</span><h1>Going Deeper with Convolutions</h1></div></header>
+<main><div class="measure"><p class="mono">paper-0068 · paper · 2015</p><p>Christian Szegedy et al.</p><p>GoogLeNet/Inception; efficient depth via multi-scale modules.</p><h2>Academic — score -0.1131</h2><table><thead><tr><th>Metric</th><th>Status</th><th>Value</th><th>Norm.</th><th>Weight</th><th>Contribution</th><th>Source</th><th>Confidence</th><th>Provenance</th></tr></thead><tbody><tr><td class="mono">citation_count</td><td>present</td><td class="num">46835.0</td><td class="num">0.210822</td><td class="num">0.5</td><td class="num">0.105411</td><td>OpenAlex</td><td>high</td><td><a href="https://openalex.org/W2097117768">link</a></td></tr><tr class="miss"><td class="mono">library_holdings</td><td>missing</td><td colspan="3">recorded as missing — penalized by rule, never imputed</td><td class="num">−0.1</td><td colspan="3">recorded as missing; penalized by rule, never imputed</td></tr><tr><td class="mono">sustained_readership</td><td>present</td><td class="num">12121.0</td><td class="num">0.128958</td><td class="num">0.05</td><td class="num">0.006448</td><td>OpenAlex</td><td>medium</td><td><a href="https://openalex.org/W2097117768">link</a></td></tr><tr class="miss"><td class="mono">syllabus_adoptions</td><td>missing</td><td colspan="3">recorded as missing — penalized by rule, never imputed</td><td class="num">−0.125</td><td colspan="3">recorded as missing; penalized by rule, never imputed</td></tr></tbody></table><h2>Broad Influence — score -0.1063</h2><table><thead><tr><th>Metric</th><th>Status</th><th>Value</th><th>Norm.</th><th>Weight</th><th>Contribution</th><th>Source</th><th>Confidence</th><th>Provenance</th></tr></thead><tbody><tr><td class="mono">citation_count</td><td>present</td><td class="num">46835.0</td><td class="num">0.210822</td><td class="num">0.2</td><td class="num">0.042164</td><td>OpenAlex</td><td>high</td><td><a href="https://openalex.org/W2097117768">link</a></td></tr><tr class="miss"><td class="mono">library_holdings</td><td>missing</td><td colspan="3">recorded as missing — penalized by rule, never imputed</td><td class="num">−0.125</td><td colspan="3">recorded as missing; penalized by rule, never imputed</td></tr><tr><td class="mono">sustained_readership</td><td>present</td><td class="num">12121.0</td><td class="num">0.128958</td><td class="num">0.4</td><td class="num">0.051583</td><td>OpenAlex</td><td>medium</td><td><a href="https://openalex.org/W2097117768">link</a></td></tr><tr class="miss"><td class="mono">syllabus_adoptions</td><td>missing</td><td colspan="3">recorded as missing — penalized by rule, never imputed</td><td class="num">−0.075</td><td colspan="3">recorded as missing; penalized by rule, never imputed</td></tr></tbody></table><h2>Governance Practitioner — score -0.2594</h2><table><thead><tr><th>Metric</th><th>Status</th><th>Value</th><th>Norm.</th><th>Weight</th><th>Contribution</th><th>Source</th><th>Confidence</th><th>Provenance</th></tr></thead><tbody><tr><td class="mono">citation_count</td><td>present</td><td class="num">46835.0</td><td class="num">0.210822</td><td class="num">0.25</td><td class="num">0.052706</td><td>OpenAlex</td><td>high</td><td><a href="https://openalex.org/W2097117768">link</a></td></tr><tr class="miss"><td class="mono">library_holdings</td><td>missing</td><td colspan="3">recorded as missing — penalized by rule, never imputed</td><td class="num">−0.15</td><td colspan="3">recorded as missing; penalized by rule, never imputed</td></tr><tr><td class="mono">sustained_readership</td><td>present</td><td class="num">12121.0</td><td class="num">0.128958</td><td class="num">0.1</td><td class="num">0.012896</td><td>OpenAlex</td><td>medium</td><td><a href="https://openalex.org/W2097117768">link</a></td></tr><tr class="miss"><td class="mono">syllabus_adoptions</td><td>missing</td><td colspan="3">recorded as missing — penalized by rule, never imputed</td><td class="num">−0.175</td><td colspan="3">recorded as missing; penalized by rule, never imputed</td></tr></tbody></table><p class="note">Disagree with this rank or a number? <a href="mailto:office@apparens.nl?subject=Challenge rank: paper-0068">Challenge it</a> — with your evidence. Every challenge gets a public identifier and a published resolution.</p></div></main>
+<footer><div class="measure">THE AI CANON · an <a href="https://apparens.nl">Apparens</a> public research initiative ·
+release <b>pilot-v0.1</b> · challenge anything: <a href="mailto:office@apparens.nl">office@apparens.nl</a><br>
+Nothing is for sale. Nothing is hidden. Nothing is final.</div></footer>
+</body></html>

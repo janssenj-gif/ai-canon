@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.007326,
+        "metric": "citation_count",
+        "normalized": 0.014652,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3255.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.000802,
+        "metric": "sustained_readership",
+        "normalized": 0.016033,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1507.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 47,
+    "scenario": "academic",
+    "score": -0.216872,
+    "work_id": "paper-0080",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00293,
+        "metric": "citation_count",
+        "normalized": 0.014652,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3255.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.006413,
+        "metric": "sustained_readership",
+        "normalized": 0.016033,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1507.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 39,
+    "scenario": "broad_influence",
+    "score": -0.190657,
+    "work_id": "paper-0080",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "You Only Look Once: Unified, Real-Time Object Detection",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.003663,
+        "metric": "citation_count",
+        "normalized": 0.014652,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 3255.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.001603,
+        "metric": "sustained_readership",
+        "normalized": 0.016033,
+        "provenance_url": "https://openalex.org/W1483870316",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 1507.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 45,
+    "scenario": "governance_practitioner",
+    "score": -0.319734,
+    "work_id": "paper-0080",
+    "work_type": "paper"
+  }
+}

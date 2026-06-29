@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Gradient-Based Learning Applied to Document Recognition",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.131103,
+        "metric": "citation_count",
+        "normalized": 0.262205,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 58250.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.009455,
+        "metric": "sustained_readership",
+        "normalized": 0.189101,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17774.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 6,
+    "scenario": "academic",
+    "score": -0.084442,
+    "work_id": "paper-0041",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Gradient-Based Learning Applied to Document Recognition",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.052441,
+        "metric": "citation_count",
+        "normalized": 0.262205,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 58250.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.07564,
+        "metric": "sustained_readership",
+        "normalized": 0.189101,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17774.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 5,
+    "scenario": "broad_influence",
+    "score": -0.071919,
+    "work_id": "paper-0041",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Gradient-Based Learning Applied to Document Recognition",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.065551,
+        "metric": "citation_count",
+        "normalized": 0.262205,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 58250.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.01891,
+        "metric": "sustained_readership",
+        "normalized": 0.189101,
+        "provenance_url": "https://openalex.org/W2112796928",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17774.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 6,
+    "scenario": "governance_practitioner",
+    "score": -0.240539,
+    "work_id": "paper-0041",
+    "work_type": "paper"
+  }
+}

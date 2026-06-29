@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "A Mathematical Theory of Communication",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.021926,
+        "metric": "citation_count",
+        "normalized": 0.043852,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9742.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 9e-06,
+        "metric": "sustained_readership",
+        "normalized": 0.000181,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 31,
+    "scenario": "academic",
+    "score": -0.203065,
+    "work_id": "paper-0003",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "A Mathematical Theory of Communication",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.00877,
+        "metric": "citation_count",
+        "normalized": 0.043852,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9742.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 7.2e-05,
+        "metric": "sustained_readership",
+        "normalized": 0.000181,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 40,
+    "scenario": "broad_influence",
+    "score": -0.191158,
+    "work_id": "paper-0003",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "A Mathematical Theory of Communication",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.010963,
+        "metric": "citation_count",
+        "normalized": 0.043852,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 9742.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 1.8e-05,
+        "metric": "sustained_readership",
+        "normalized": 0.000181,
+        "provenance_url": "https://openalex.org/W2041404167",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 17.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 35,
+    "scenario": "governance_practitioner",
+    "score": -0.314019,
+    "work_id": "paper-0003",
+    "work_type": "paper"
+  }
+}

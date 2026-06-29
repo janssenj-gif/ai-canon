@@ -1,0 +1,51 @@
+{
+  "broad_influence": {
+    "canonical_title": "Learning to Predict by the Methods of Temporal Differences",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.002517,
+        "metric": "citation_count",
+        "normalized": 0.012586,
+        "provenance_url": "https://openalex.org/W3041202696",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 2796.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.002298,
+        "metric": "sustained_readership",
+        "normalized": 0.005745,
+        "provenance_url": "https://openalex.org/W3041202696",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 540.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 50,
+    "scenario": "broad_influence",
+    "score": -0.195185,
+    "work_id": "paper-0026",
+    "work_type": "paper"
+  }
+}

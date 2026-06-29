@@ -1,0 +1,149 @@
+{
+  "academic": {
+    "canonical_title": "Reducing the Dimensionality of Data with Neural Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.047188,
+        "metric": "citation_count",
+        "normalized": 0.094376,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20966.0,
+        "weight": 0.5
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.1,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.2
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.002562,
+        "metric": "sustained_readership",
+        "normalized": 0.051249,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4817.0,
+        "weight": 0.05
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 16,
+    "scenario": "academic",
+    "score": -0.17525,
+    "work_id": "paper-0050",
+    "work_type": "paper"
+  },
+  "broad_influence": {
+    "canonical_title": "Reducing the Dimensionality of Data with Neural Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.018875,
+        "metric": "citation_count",
+        "normalized": 0.094376,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20966.0,
+        "weight": 0.2
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.125,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.25
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.0205,
+        "metric": "sustained_readership",
+        "normalized": 0.051249,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4817.0,
+        "weight": 0.4
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.075,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.15
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 15,
+    "scenario": "broad_influence",
+    "score": -0.160625,
+    "work_id": "paper-0050",
+    "work_type": "paper"
+  },
+  "governance_practitioner": {
+    "canonical_title": "Reducing the Dimensionality of Data with Neural Networks",
+    "components": [
+      {
+        "confidence": "high",
+        "contribution": 0.023594,
+        "metric": "citation_count",
+        "normalized": 0.094376,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 20966.0,
+        "weight": 0.25
+      },
+      {
+        "metric": "library_holdings",
+        "missing_data_penalty": 0.15,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.3
+      },
+      {
+        "confidence": "medium",
+        "contribution": 0.005125,
+        "metric": "sustained_readership",
+        "normalized": 0.051249,
+        "provenance_url": "https://openalex.org/W2100495367",
+        "retrieved_at": "2026-06-29",
+        "source": "OpenAlex",
+        "status": "present",
+        "value": 4817.0,
+        "weight": 0.1
+      },
+      {
+        "metric": "syllabus_adoptions",
+        "missing_data_penalty": 0.175,
+        "note": "recorded as missing; penalized by rule, never imputed",
+        "status": "missing",
+        "weight": 0.35
+      }
+    ],
+    "conflict_flag": false,
+    "rank": 16,
+    "scenario": "governance_practitioner",
+    "score": -0.296281,
+    "work_id": "paper-0050",
+    "work_type": "paper"
+  }
+}
